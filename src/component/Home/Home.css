@@ -1,0 +1,42 @@
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.leftSemiCircle {
+    width: 60px;
+    height: 120px;
+    border-radius: 12rem 0 0 12rem;
+    background-color: #f7b9f7;
+}
+.rightSemiCircle {
+    width: 45px;
+    height: 90px;
+    border-radius: 0 12rem 12rem 0;
+    background-color: #e9f3b8;
+    margin-top: 260px;
+}
+
+#bannerSection {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    background: #E0AB8B;
+    /* height: 40%; */
+}
+
+.rightDiv {
+    display: flex;
+}
+
+.rightDiv img {
+    width: 270px;
+    height: 350px;
+}
+
+.bannerBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px ;
+}

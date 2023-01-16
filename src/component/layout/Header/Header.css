@@ -1,0 +1,21 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #E0AB8B;
+    padding-top: 10px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
