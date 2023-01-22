@@ -1,14 +1,24 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import "./Home.css";
+import CountUp from "react-countup";
+import { useNavigate } from "react-router-dom";
+import { CarouselWrapper } from "react-pretty-carousel";
+import Testimonial from "./Testimonial";
 
 function Home() {
-  let count = 0;
-  setInterval(() => {
-    if (count < process.env.BOOKS_SOLD) {
-      count++;
-    }
-  }, 1000);
+  let navigate = useNavigate();
+  const routeChange = () => {
+    let path = `/about-book`;
+    navigate(path);
+  };
+  const navigateToAuthor = () => {
+    navigate("/about-author");
+  };
+  const myRef = useRef(null);
+
+  const executeScroll = () => myRef.current.scrollIntoView();
   let testimonialArr = [
     {
       desc: "She is an excellent teacher, mentor, guide. Her way of teaching easily clears the concept of the topic.",
@@ -41,6 +51,17 @@ function Home() {
       place: "Bhilai, (C.G.)",
     },
   ];
+  let reviews = [
+    "./assets/images/review1.jpeg",
+    "./assets/images/review2.jpeg",
+    // "./assets/images/review3.jpeg",
+    "./assets/images/review4.jpeg",
+    "./assets/images/review5.jpeg",
+    "./assets/images/review6.jpeg",
+    "./assets/images/review7.jpeg",
+    "./assets/images/review8.jpeg",
+    "./assets/images/review9.jpeg",
+  ];
   return (
     <div>
       {/* home header */}
@@ -49,15 +70,22 @@ function Home() {
         {/* can adjust svg in background */}
 
         <div className="leftDiv">
-          <h4 className="upperHeading">- A book</h4>
+          <h4 className="upperHeading">
+            - A comprehensive guide to mathematics
+          </h4>
           <div>
-            <h1 className="mainHeading">Bible to Maths</h1>
+            <h1 className="mainHeading">Bible To Basic Mathematics</h1>
             {/* add a thick underline here */}
           </div>
           <div className="mainPara">
             <p>
-              This is the <span className="purple">best</span> book. this is the
-              best book this is the best book this is the best book
+              This book is for any audience who want to clear their
+              <span className="purple"> concepts of Mathematics </span>
+              from the scratch. It has been an interesting journey to write this
+              book. This book works with a flow starting from the theory of
+              numbers followed by many important concepts. I have made an
+              attempt to put all the important concepts of mathematics together
+              in a single book.
             </p>
           </div>
           {/* <button href="amazon link here">Buy Now</button> */}
@@ -67,8 +95,18 @@ function Home() {
             {/* left pink  semi circle*/}
             {/* <img src="./assets/images/testimage.jpg" alt="" /> */}
           </div>
-          <div className="book">
-            <img src="./assets/images/testimage.jpg" alt="" />
+          <div>
+            <img
+              className="mainImage"
+              src="./assets/images/front.png"
+              alt=""
+              onClick={() =>
+                window.open(
+                  "https://www.amazon.in/BIBLE-BASIC-MATHEMATICS-MATHS-COMPETITIVE/dp/8194681308/ref=sr_1_1?crid=OJZSKDBWRZQ3&keywords=bible+to+maths&qid=1674392962&sprefix=%2Caps%2C488&sr=8-1",
+                  "_blank"
+                )
+              }
+            />
             {/* book image */}
           </div>
           <div className="rightSemiCircle">
@@ -79,26 +117,67 @@ function Home() {
       </div>
       <div className="bannerBottom">
         {/* home footer more, scroll to explore, insta facebook twitter */}
-        <p>Need help?</p>
-        <p>Scoll to explore</p>
+        <p
+          onClick={() =>
+            window.open(
+              "https://www.amazon.in/BIBLE-BASIC-MATHEMATICS-MATHS-COMPETITIVE/dp/8194681308/ref=sr_1_1?crid=OJZSKDBWRZQ3&keywords=bible+to+maths&qid=1674392962&sprefix=%2Caps%2C488&sr=8-1",
+              "_blank"
+            )
+          }
+          style={{ cursor: "pointer" }}
+        >
+          Buy Now!?
+        </p>
+        <div>
+          <p>Scoll to explore</p>
+          <div class="mouse_scroll" onClick={executeScroll}>
+            {/* <div class="mouse">
+              <div class="wheel"></div>
+            </div> */}
+            <div>
+              <span class="m_scroll_arrows unu"></span>
+              <span class="m_scroll_arrows doi"></span>
+              <span class="m_scroll_arrows trei"></span>
+            </div>
+          </div>
+        </div>
+
         <p>
           <a href="/">Insta </a>
           <a href="/">Facebook </a>
           <a href="/">Twitter</a>
         </p>
       </div>
+
       {/* Testimonial section */}
-      <div>
-        <div>
-          {/* testominals */}
-          <Carousel>
-            <div className="carouselItem">
+      <div className="testimonial" id="testimonial" ref={myRef}>
+        <div className="testRightDiv">
+          <div className="leftSemiCircle">
+            {/* left pink  semi circle*/}
+            {/* <img src="./assets/images/testimage.jpg" alt="" /> */}
+          </div>
+          <div className="book">
+            <img src="./assets/images/back.png" alt="" />
+            {/* book image */}
+          </div>
+          <div className="rightSemiCircle">
+            {/* <img src="./assets/images/testimage.jpg" alt="" /> */}
+            {/* bottom right semi circle */}
+          </div>
+        </div>
+        {/* testominals */}
+        <div className="testLeftDiv">
+          <Testimonial />
+        </div>
+
+        {/* <Carousel className="testimonial"  >
+            
               {testimonialArr
                 .filter((item, i) => i < 3)
                 .map((testimonial, ind) => {
                   return (
-                    <div className="testimonial" key={ind}>
-                      {/* svg icon or img icon */}
+                    <div key={ind}>
+                      
                       <p className="testName">{testimonial.name}</p>
                       <p className="testSubs">{testimonial.subs}</p>
                       <p className="testPlace">{testimonial.place}</p>
@@ -106,14 +185,14 @@ function Home() {
                     </div>
                   );
                 })}
-            </div>
-            <div className="carouselItem">
+            
+            
               {testimonialArr
-                .filter((item, i) => i > 2)
+                .filter((item, i) => i > 1)
                 .map((testimonial, ind) => {
                   return (
-                    <div className="testimonial" key={ind}>
-                      {/* svg icon or img icon */}
+                    <div key={ind}>
+            
                       <p className="testName">{testimonial.name}</p>
                       <p className="testSubs">{testimonial.subs}</p>
                       <p className="testPlace">{testimonial.place}</p>
@@ -121,63 +200,102 @@ function Home() {
                     </div>
                   );
                 })}
-            </div>
-          </Carousel>
-          <div>{/* 1st */}</div>
-          <div>{/* 2nd */}</div>
-        </div>
+            
+          </Carousel> */}
+        {/* </div> */}
       </div>
 
       {/* books sold counter section */}
 
-      <div className="counter">
+      {/* <div className="centered" style={{ background: "#D8D3C9" }}>
         <div>
-          <h4 className="counterHeading">
+          <h2 className="counterHeading">
             Sales which proves our effectiveness
-          </h4>
-          <p className="numberCounter">{count}</p>
+          </h2>
+          <CountUp start={0} end={10000} duration={15} className="myCounter" />
         </div>
-      </div>
+      </div> */}
 
       {/* About book */}
-      <div className="book">
-        <div className="bookDesc">
-          <h4 className="bookHeading">My book</h4>
-          <p className="bookDesc">
-            the best book ever, the best book ever, the best book ever, the best
-            book ever, the best book ever
-          </p>
+      <div>
+        <div className="bookContainer">
+          <div className="bookDesc">
+            <h4 className="bookHeading">Bible to Basic Mathematics</h4>
+            <p>
+              This book is an attempt to clarify the concepts of mathematics
+              from scratch for readers of all age groups. BIBLE TO BASIC
+              MATHEMATICS provides readers with all the contents required to
+              improve their skills and basics of Mathematics such as theory of
+              numbers, operation on fractions, operation of signs, shifting of
+              terms across the equal to sign, splitting the middle term in
+              quadratic equation, properties and basic theorems of geometry,
+              mensuration, probability and many more. This book is intended for
+              all readers, even for those who have not been in touch with
+              Mathematics from the last many years.
+            </p>
+          </div>
+          <div className="bookImage">
+            {/* left div image */}
+            <img src="./assets/images/front.png" alt="" />
+          </div>
           <div className="bookNumbers">
             <div className="bookNumber">
-              <p> 200-300 </p>
+              <CountUp
+                start={0}
+                end={200}
+                duration={15}
+                className="myCounter"
+              />
               <p>Students Taught</p>
             </div>
             <div className="bookNumber">
-              <p> 180 </p>
+              <CountUp start={0} end={10} duration={2} className="myCounter" />
               <p>Student toppers</p>
             </div>
+            <div>
+              <h2 className="counterHeading">
+                Sales which proves our effectiveness
+              </h2>
+              <CountUp
+                start={0}
+                end={1000}
+                duration={100}
+                className="myCounter"
+              />
+            </div>
           </div>
-          <button>Read more about the book</button>
         </div>
-        <div className="bookImage">
-          {/* left div image */}
-          <img src="./assets/images/testimage.jpg" alt="" />
+        <div className="centered" style={{ background: "#d8d3c9" }}>
+          <button onClick={routeChange}>Read more about the book</button>
         </div>
       </div>
 
       {/* about the author */}
-      <div className="author">
-        <div className="authorImage">
-          {/* left div image */}
-          <img src="./assets/images/testimage.jpg" alt="" />
-        </div>
-        <div className="authorDesc">
-          <h4 className="authorHeading">My Author</h4>
-          <p className="authorDesc">
-            the best author ever, the best author ever, the best author ever,
-            the best author ever, the best author ever
-          </p>
-          <div className="authorNumbers">
+
+      <div>
+        <div className="author">
+          <div className="authorImage">
+            {/* left div image */}
+            <img src="./assets/images/author_book_2.jpg" alt="" />
+          </div>
+          <div className="authorDesc">
+            <h4 className="authorHeading">Pragati Agrawal</h4>
+            <p className="authorDescPara">
+              B.E., M.Tech [Hons.] in the field of Computer Science and
+              Technology. She is UGC-NET and GATE qualified as well. She
+              provided coaching to students of various grades at her coaching
+              institute from the past 8 years. She did the Certification of
+              ‘Python-Programming’ and ‘Deep-Learning’ from IIT – Madras. She is
+              passionate about Mathematics. Why i write the book? As during her
+              teaching career, she noticed that there is some lack of
+              understanding in basic concept of Mathematics. So, in a casual
+              conversation her brother suggested to transform the concept and
+              knowledge into a book. This motivated her to attempt to write this
+              book. She started writing in October-2019 and finished it in
+              November, 2019. She decided to self publish it in the name of her
+              grand-parents.
+            </p>
+            {/* <div className="authorNumbers">
             <div className="authorNumber">
               <p> 200-300 </p>
               <p>Students Taught</p>
@@ -186,9 +304,40 @@ function Home() {
               <p> 180 </p>
               <p>Student toppers</p>
             </div>
+          </div> */}
           </div>
-          <button>Read more about the Author</button>
         </div>
+        <div className="centered" style={{ background: "#d8d3c9" }}>
+          <button onClick={navigateToAuthor}>Read more about the Author</button>
+        </div>
+      </div>
+      {/* Amazon reviews */}
+      <div>
+        {/* <CarouselWrapper items={1} mode="normal">
+          {reviews.map((image, index) => (
+            <img src={image} alt={`pic-${index}`} key={index} />
+          ))}
+        </CarouselWrapper> */}
+        <Carousel
+          className="reviews"
+          showArrows={false}
+          infiniteLoop={true}
+          showThumbs={false}
+          showStatus={false}
+          autoPlay={true}
+          interval={2100}
+        >
+          {reviews.map((image, index) => (
+            <div className="carousel2">
+              <img
+                src={image}
+                alt={`pic-${index}`}
+                key={index}
+                style={{ width: "100%" }}
+              />
+            </div>
+          ))}
+        </Carousel>
       </div>
     </div>
   );

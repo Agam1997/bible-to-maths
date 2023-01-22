@@ -2,9 +2,10 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background: #E0AB8B;
+    background: #D8D3C9;
     padding-top: 10px;
 }
+
 
 .links {
     display: flex;
@@ -18,4 +19,6 @@ nav {
 a {
     text-decoration: none;
     color: inherit;
+    font-weight: bolder;
 }
+

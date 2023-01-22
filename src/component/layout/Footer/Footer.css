@@ -1,0 +1,35 @@
+.footerImage {
+    width: 180px;
+    height: 270px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5%;
+    background-color: #d8d3c9;
+}
+/* .footer div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25%; */
+/* } */
+
+.footerMenu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0.3;
+}
+
+.columnMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 20%; */
+}

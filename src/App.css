@@ -1,7 +1,17 @@
-.App {
+.app {
+  text-align: center;
+  background-color: #d8d3c9;
+}
+.centered {
+  /* height: 100vh; Magic here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

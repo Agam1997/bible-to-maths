@@ -3,17 +3,20 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from "./component/layout/Header/Header";
-import Home from "./component/Home/Home";
+import HomePage from "./pages/Homepage/homepage";
 import Footer from "./component/layout/Footer/Footer";
+import AboutBook from "./component/About-Book/AboutBook";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about-book" element={<AboutBook />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
       {/* <Home /> */}
       {/* <Footer /> */}

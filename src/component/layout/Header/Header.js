@@ -4,7 +4,7 @@ import "./Header.css";
 function Header() {
   return (
     <nav>
-      <a href="index.html">
+      <a href="/">
         Bible to maths
       </a>
         {/* <div > */}
@@ -13,7 +13,7 @@ function Header() {
               <a href="/home">Home</a>
             </li> */}
             <li>
-              <a href="/about">About the book</a>
+              <a href="/about-book">About the book</a>
             </li>
             <li>
               <a href="/about-author">About the author</a>
