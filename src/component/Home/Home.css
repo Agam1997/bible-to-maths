@@ -503,3 +503,40 @@ font-size: x-large;
     border-radius: 50%;
   }
 }
+
+.reviewContainer {
+  padding-top: 2%;
+}
+
+.aloneSvg {
+  position: absolute;
+width: 56px;
+height: 26.13px;
+left: 658px;
+top: 291.6px;
+
+/* transform: rotate(-45deg); */
+}
+
+.thickLine {
+  position: absolute;
+left: 125px;
+top: 341.6px;
+opacity: 0.9;
+}
+
+.mainHeading {
+z-index: 10000 !important;
+}
+
+.myLine {
+  color: #EDCE92;
+  position: relative;
+  bottom: 35px;
+  width: 44.7%;
+  margin-right: 73%;
+  border: 5px solid #EDCE92;
+  opacity: 0.8;
+  border-radius: 20px;
+  /* background-color: ; */
+}

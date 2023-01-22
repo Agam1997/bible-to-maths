@@ -1,0 +1,28 @@
+.frontRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8%
+}
+
+.firstRowDesc {
+    flex: 0.6;
+}
+.backRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 8%
+}
+
+.backRowDesc {
+    flex: 0.6;
+}
+
+.acknowledgments {
+    max-width: 50%;
+    margin-left: 25%;
+    padding-bottom: 5%;
+}

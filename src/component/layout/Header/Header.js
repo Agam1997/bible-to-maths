@@ -5,7 +5,7 @@ function Header() {
   return (
     <nav>
       <a href="/">
-        Bible to maths
+        Bible to basic mathematics
       </a>
         {/* <div > */}
           <ul className="links">

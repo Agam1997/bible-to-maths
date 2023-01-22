@@ -65,17 +65,21 @@ function Home() {
   return (
     <div>
       {/* home header */}
-      <div className="aloneSvg">{/* for svg */}</div>
+      <div className="aloneSvg"><img src="./assets/images/Pattern.png" alt="pattern-1" /></div>
       <div id="bannerSection">
         {/* can adjust svg in background */}
 
         <div className="leftDiv">
           <h4 className="upperHeading">
+          
             - A comprehensive guide to mathematics
+            
           </h4>
           <div>
             <h1 className="mainHeading">Bible To Basic Mathematics</h1>
             {/* add a thick underline here */}
+            {/* <img src="./assets/images/Rectangle.png" alt="rectangle-2" className="thickLine"/> */}
+            <hr className="myLine" />
           </div>
           <div className="mainPara">
             <p>
@@ -312,7 +316,7 @@ function Home() {
         </div>
       </div>
       {/* Amazon reviews */}
-      <div>
+      <div className="reviewContainer">
         {/* <CarouselWrapper items={1} mode="normal">
           {reviews.map((image, index) => (
             <img src={image} alt={`pic-${index}`} key={index} />

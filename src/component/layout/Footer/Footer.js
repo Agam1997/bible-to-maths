@@ -2,12 +2,7 @@ import React from "react";
 // import { useNavigate } from "react-router-dom";
 import "./Footer.css";
 import {
-  Box,
-  Container,
-  Row,
-  Column,
-  FooterLink,
-  Heading,
+  FooterLink
 } from "./FooterStyles";
 
 const Footer = () => {
@@ -41,11 +36,11 @@ const Footer = () => {
               <span style={{ marginLeft: "10px" }}>Twitter</span>
             </i>
           </FooterLink>
-          <FooterLink href="#">
+          {/* <FooterLink href="#">
             <i className="fab fa-youtube">
               <span style={{ marginLeft: "10px" }}>Youtube</span>
             </i>
-          </FooterLink>
+          </FooterLink> */}
         </div>
       </div>
       </div>
