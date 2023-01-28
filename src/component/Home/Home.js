@@ -65,14 +65,15 @@ function Home() {
   return (
     <div>
       {/* home header */}
-      <div className="aloneSvg"><img src="./assets/images/Pattern.png" alt="pattern-1" /></div>
+      <div className="leftAloneSvg"><img src="./assets/images/Pattern.png" alt="pattern-1" /></div>
+      <div className="rightAloneSvg"><img src="./assets/images/Pattern.png" alt="pattern-1" /></div>
       <div id="bannerSection">
         {/* can adjust svg in background */}
 
         <div className="leftDiv">
           <h4 className="upperHeading">
           
-            - A comprehensive guide to mathematics
+            -- A comprehensive guide to mathematics
             
           </h4>
           <div>
@@ -84,7 +85,7 @@ function Home() {
           <div className="mainPara">
             <p>
               This book is for any audience who want to clear their
-              <span className="purple"> concepts of Mathematics </span>
+              <span className="purple"> concepts of mathematics </span>
               from the scratch. It has been an interesting journey to write this
               book. This book works with a flow starting from the theory of
               numbers followed by many important concepts. I have made an
@@ -92,7 +93,13 @@ function Home() {
               in a single book.
             </p>
           </div>
-          {/* <button href="amazon link here">Buy Now</button> */}
+          <br /><br />
+          <button className="buyNow" onClick={() =>
+                window.open(
+                  "https://www.amazon.in/BIBLE-BASIC-MATHEMATICS-MATHS-COMPETITIVE/dp/8194681308/ref=sr_1_1?crid=OJZSKDBWRZQ3&keywords=bible+to+maths&qid=1674392962&sprefix=%2Caps%2C488&sr=8-1",
+                  "_blank"
+                )
+              }>Buy Now</button>
         </div>
         <div className="rightDiv">
           <div className="leftSemiCircle">
@@ -243,7 +250,10 @@ function Home() {
             <img src="./assets/images/front.png" alt="" />
           </div>
           <div className="bookNumbers">
+          {/* <blockquote></blockquote> */}
+          
             <div className="bookNumber">
+            <span className="quote"></span>
               <CountUp
                 start={0}
                 end={200}
@@ -265,11 +275,12 @@ function Home() {
                 end={1000}
                 duration={100}
                 className="myCounter"
-              />
+              />              
             </div>
+            <span className="invertedQuote"></span>
           </div>
         </div>
-        <div className="centered" style={{ background: "#d8d3c9" }}>
+        <div className="centered">
           <button onClick={routeChange}>Read more about the book</button>
         </div>
       </div>
@@ -311,7 +322,7 @@ function Home() {
           </div> */}
           </div>
         </div>
-        <div className="centered" style={{ background: "#d8d3c9" }}>
+        <div className="centered">
           <button onClick={navigateToAuthor}>Read more about the Author</button>
         </div>
       </div>

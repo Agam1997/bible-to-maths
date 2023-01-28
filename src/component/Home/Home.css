@@ -293,20 +293,16 @@ img {
   }
 }
 
-
 .App {
   text-align: center;
 }
 
-
-
 .myCounter {
-  color:black;    
-text-shadow: 1px 0 #888888;
-letter-spacing:1px;
-font-weight:800;
-font-size: x-large;
-
+  color: black;
+  text-shadow: 1px 0 #888888;
+  letter-spacing: 1px;
+  font-weight: 800;
+  font-size: x-large;
 }
 
 .bookContainer {
@@ -314,7 +310,7 @@ font-size: x-large;
   align-items: center;
   justify-content: space-between;
   background: #d8d3c9;
-  padding: 8%
+  padding: 8%;
 }
 .bookDesc {
   flex: 0.35;
@@ -328,15 +324,28 @@ font-size: x-large;
 .centered button {
   width: 150px;
   height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #706248;
+  position: relative;
+  right: 2.95%;
+  cursor: pointer;
+}
+.centered button:hover {
+  /* width: 150px; */
+  /* height: 50px; */
   background-color: #edce92;
   border-radius: 10px;
   border-style: solid;
   border-color: #706248;
   position: relative;
   right: 2.95%;
+  color: black;
 }
 .bookNumbers {
-  flex: .431;
+  flex: 0.431;
 }
 
 .bookImage img {
@@ -363,7 +372,7 @@ font-size: x-large;
   /* flex: 0.8; */
   /* display: flex; */
   text-align: center;
-  max-width:50%;
+  max-width: 50%;
 }
 .authorImage img {
   width: 270px;
@@ -508,34 +517,107 @@ font-size: x-large;
   padding-top: 2%;
 }
 
-.aloneSvg {
+.rightAloneSvg {
   position: absolute;
-width: 56px;
-height: 26.13px;
-left: 658px;
-top: 291.6px;
+  width: 56px;
+  height: 26.13px;
+  left: 658px;
+  top: 291.6px;
 
-/* transform: rotate(-45deg); */
+  /* transform: rotate(-45deg); */
+}
+.leftAloneSvg {
+  position: absolute;
+  width: 56px;
+  height: 26.13px;
+  left: 58px;
+  top: 120px;
+  transform: rotate(45deg);
+  animation: rotation 2s linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(404deg);
+  }
+}
+.buyNow {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 32px;
+  cursor: pointer;
+}
+.buyNow:hover {
+  background-color: #edce92;
+  color: black;
+}
+.quote {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  /* width: 500px; */
+  /* margin: 0.25em 0; */
+  /* padding: 0.35em 40px; */
+  /* line-height: 1.45; */
+  position: relative;
+  color: #c281d1;
+}
+
+.quote:before {
+  display: block;
+  padding-right: 5px;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  left: -200px;
+  top: -20px;
+  color: #c281d1;
+}
+
+.invertedQuote {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  /* width: 500px; */
+  /* margin: 0.25em 0; */
+  /* padding: 0.35em 40px; */
+  /* line-height: 1.45; */
+  position: relative;
+  color: #c281d1;
+}
+.invertedQuote:before {
+  display: block;
+  padding-right: 5px;
+  content: "\201D";
+  font-size: 80px;
+  position: absolute;
+  left: 150px;
+  top: 20px;
+  color: #c281d1;
 }
 
 .thickLine {
   position: absolute;
-left: 125px;
-top: 341.6px;
-opacity: 0.9;
+  left: 125px;
+  top: 341.6px;
+  opacity: 0.9;
 }
 
 .mainHeading {
-z-index: 10000 !important;
+  z-index: 10000 !important;
 }
 
 .myLine {
-  color: #EDCE92;
+  color: #edce92;
   position: relative;
   bottom: 35px;
   width: 44.7%;
   margin-right: 73%;
-  border: 5px solid #EDCE92;
+  border: 5px solid #edce92;
   opacity: 0.8;
   border-radius: 20px;
   /* background-color: ; */
