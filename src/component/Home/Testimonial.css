@@ -100,6 +100,7 @@
     outline: 0;
     width: 93% !important;
     margin: auto !important;
+    height: 450px;
   }
   .carousel {
     height: 105vw !important;
@@ -119,11 +120,14 @@
     padding-left: 5%;
     padding-right: 5%;
     border: 1px solid #ddd;
-    height: 269px;
+    height: 600px;
   }
 
   .carousel .slide img {
     width: 24% !important;
     border-radius: 50%;
   }
+  .control-dots {
+    top: 350px !important;
+}
 }

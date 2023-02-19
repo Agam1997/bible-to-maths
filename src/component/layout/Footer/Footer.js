@@ -44,6 +44,9 @@ const Footer = () => {
         </div>
       </div>
       </div>
+      <div className="footerMobile">
+        
+      </div>
       <div className="centered" style={{background: "#d8d3c9", paddingTop: "2%", paddingBottom: "3%"}} >
       <a onClick={()=>window.open('https://kaffeeemedia.com','_blank')}>All rights reserved, @KaffeeMedia</a>
       </div>

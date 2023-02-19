@@ -352,7 +352,15 @@ img {
   width: 270px;
   height: 350px;
 }
-
+.mainImage:hover {
+  transform: scale(1.08);
+}
+.book:hover {
+  transform: scale(1.08);
+}
+.bookImage:hover {
+  transform: scale(1.08);
+}
 .author {
   display: flex;
   align-items: center;
@@ -481,6 +489,12 @@ img {
   height: 35vw !important;
 }
 @media only screen and (max-width: 934px) {
+  .upperHeading {
+    display: none;
+  }
+  .authorDesc {
+    max-width: 100% !important;
+  }
   .reviews {
     outline: 0;
     width: 93% !important;
@@ -533,7 +547,7 @@ img {
   left: 58px;
   top: 120px;
   transform: rotate(45deg);
-  animation: rotation 2s linear;
+  animation: rotation 1s linear;
 }
 
 @keyframes rotation {
@@ -621,4 +635,101 @@ img {
   opacity: 0.8;
   border-radius: 20px;
   /* background-color: ; */
+}
+@media only screen and (max-width: 934px) {
+  .sectionTwo {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .sectionThree {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block !important;
+  }
+  .leftSemiCircle {
+    width: 40px;
+    height: 80px;
+  }
+  .rightSemiCircle {
+    width: 40px;
+    height: 80px;
+  }
+  .sectionOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .sectionFour {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .mainHeading {
+    padding-top: 19px;
+    font-size: larger;
+  }
+  .myLine {
+    margin-top: 25px;
+    width: 300px;
+  }
+  .quote {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    /* width: 500px; */
+    /* margin: 0.25em 0; */
+    /* padding: 0.35em 40px; */
+    /* line-height: 1.45; */
+    position: relative;
+    color: #c281d1;
+  }
+  
+  .quote:before {
+    display: block;
+    padding-right: 5px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -100px;
+    top: -20px;
+    color: #c281d1;
+  }
+  
+  .invertedQuote {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    /* width: 500px; */
+    /* margin: 0.25em 0; */
+    /* padding: 0.35em 40px; */
+    /* line-height: 1.45; */
+    position: relative;
+    color: #c281d1;
+  }
+  .invertedQuote:before {
+    display: block;
+    padding-right: 5px;
+    content: "\201D";
+    font-size: 80px;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    color: #c281d1;
+  }
+  .bookNumbers {
+    padding-top: 20px;
+  }
+}
+
+.mobile {
+  display: none;
 }

@@ -6,7 +6,7 @@ export const Box = styled.div`
   width: 100%;
   
    
-  @media (max-width: 1000px) {
+  @media (max-width: 934px) {
     padding: 70px 30px;
   }
 `;
@@ -33,7 +33,7 @@ export const Row = styled.div`
                          minmax(185px, 1fr));
   grid-gap: 20px;
    
-  @media (max-width: 1000px) {
+  @media (max-width: 934px) {
     grid-template-columns: repeat(auto-fill, 
                            minmax(200px, 1fr));
   }
@@ -48,6 +48,9 @@ export const FooterLink = styled.a`
   &:hover {
       color: #c281d1;
       transition: 200ms ease-in;
+  }
+  @media (max-width: 934px) {
+    font-size: 18px;
   }
 `;
    

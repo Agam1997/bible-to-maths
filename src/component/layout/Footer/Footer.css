@@ -33,3 +33,14 @@
     justify-content: space-between;
     /* padding: 20%; */
 }
+.footerMobile {
+    display: none;
+}
+@media only screen and (max-width: 934px) {
+    .footer {
+        display: none;
+    }
+    .footerMobile {
+        display: block !important;
+    }
+}

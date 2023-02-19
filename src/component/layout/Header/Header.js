@@ -1,30 +1,44 @@
-import React from "react";
-import "./Header.css";
+import { useState } from 'react'
+import { NavLink } from 'react-router-dom'
+import { ReactComponent as Hamburger } from './ham.svg'
+// import logo from "../../../../public/assets/images/ham.svg"
+import './Header.css'
 
-function Header() {
+const Header = () => {
+  const [showNavbar, setShowNavbar] = useState(false)
+
+  const handleShowNavbar = () => {
+    setShowNavbar(!showNavbar)
+  }
+
   return (
-    <nav>
-      <a href="/">
-        Bible to basic mathematics
-      </a>
-        {/* <div > */}
-          <ul className="links">
-            {/* <li>
-              <a href="/home">Home</a>
-            </li> */}
+    <nav className="navbar">
+      <div className="container">
+        <div className="logo">
+        <NavLink to="/">Bible to Mathematics</NavLink>
+        </div>
+        <div className="menu-icon" onClick={handleShowNavbar}>
+          <Hamburger />
+        </div>
+        <div className={`nav-elements  ${showNavbar && 'active'}`}>
+          <ul>
             <li>
-              <a href="/about-book">About the book</a>
+              
             </li>
             <li>
-              <a href="/about-author">About the author</a>
+              <NavLink to="/about-book">About the book</NavLink>
             </li>
             <li>
-              <a href="/contact-us">Contact-us</a>
+              <NavLink to="/about-author">About the author</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact-us">Contact</NavLink>
             </li>
           </ul>
-        {/* </div> */}
+        </div>
+      </div>
     </nav>
-  );
+  )
 }
 
-export default Header;
+export default Header
