@@ -22,8 +22,15 @@ body {
   background-color: #D8D3C9;
   position: relative;
 }
+nav {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: larger;
+  font-weight: bolder;
+  /* letter-spacing: 0.1em; */
+}
 
 .logo {
+  /* font-size: larger; */
 }
 
 .menu-icon {
@@ -44,9 +51,9 @@ body {
 }
 
 .nav-elements ul a {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
-  color: #2f234f;
+  /* color: #2f234f; */
   text-decoration: none;
 }
 
@@ -108,6 +115,6 @@ body {
 
 a {
     text-decoration: none;
-    font-weight: bolder;
+    /* font-weight: bolder; */
     color: black;
 }

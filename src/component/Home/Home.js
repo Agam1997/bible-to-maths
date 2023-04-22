@@ -16,9 +16,13 @@ function Home() {
   const navigateToAuthor = () => {
     navigate("/about-author");
   };
-  const myRef = useRef(null);
+  const myRef = useRef();
 
-  const executeScroll = () => myRef.current.scrollIntoView();
+  const executeScroll = () => myRef.current.scrollIntoView({
+    behavior: "smooth",
+    block: "nearest",
+    inline: "start"
+  });
   let reviews = [
     "./assets/images/review1.jpeg",
     "./assets/images/review2.jpeg",
@@ -33,6 +37,14 @@ function Home() {
   return (
     <div>
       {/* home header */}
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"></link>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet"></link>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"></link>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"></link>
       <div className="desktop">
         <div className="leftAloneSvg">
           <img src="./assets/images/Pattern.png" alt="pattern-1" />
@@ -48,20 +60,18 @@ function Home() {
               -- A comprehensive guide to mathematics
             </h4>
             <div>
-              <h1 className="mainHeading">Bible To Basic Mathematics</h1>
-              {/* add a thick underline here */}
-              {/* <img src="./assets/images/Rectangle.png" alt="rectangle-2" className="thickLine"/> */}
+              <h1 className="mainHeading">Bible to basic mathematics</h1>
               <hr className="myLine" />
             </div>
             <div className="mainPara">
               <p>
-                This book is for any audience who want to clear their
-                <span className="purple"> concepts of mathematics </span>
-                from the scratch. It has been an interesting journey to write
-                this book. This book works with a flow starting from the theory
-                of numbers followed by many important concepts. I have made an
-                attempt to put all the important concepts of mathematics
-                together in a single book.
+                <span className="purple">BIBLE TO BASIC MATHEMATICS</span> is a book that can be used to clear the 
+                basic maths for competitive exams as well as for school syllabus. 
+                It has been an interesting journey to write this book. 
+                This book works with a flow starting from the theory of numbers followed by
+                many important concepts. I have made an attempt to put all the
+                important concepts of mathematics together in a single book and in doing so I have
+                tried to make it the best book for basic mathematics.
               </p>
             </div>
             <br />
@@ -80,8 +90,6 @@ function Home() {
           </div>
           <div className="rightDiv">
             <div className="leftSemiCircle">
-              {/* left pink  semi circle*/}
-              {/* <img src="./assets/images/testimage.jpg" alt="" /> */}
             </div>
             <div>
               <img
@@ -98,8 +106,6 @@ function Home() {
               {/* book image */}
             </div>
             <div className="rightSemiCircle">
-              {/* <img src="./assets/images/testimage.jpg" alt="" /> */}
-              {/* bottom right semi circle */}
             </div>
           </div>
         </div>
@@ -131,9 +137,9 @@ function Home() {
           </div>
 
           <p>
-            <a href="/">Insta </a>
-            <a href="/">Facebook </a>
-            <a href="/">Twitter</a>
+            <a href="https://instagram.com/pragatiagrawal09?igshid=ZDdkNTZiNTM=">Insta </a>
+            <a href="https://www.facebook.com/pragati.agrawal.54?mibextid=ZbWKwL">Facebook </a>
+            <a href="https://twitter.com/pragatiagr09?t=NKttW0rTE2BipAIYa_7YPQ&s=08">Twitter</a>
           </p>
         </div>
 
@@ -176,16 +182,7 @@ function Home() {
             <div className="bookDesc">
               <h4 className="bookHeading">Bible to Basic Mathematics</h4>
               <p>
-                This book is an attempt to clarify the concepts of mathematics
-                from scratch for readers of all age groups. BIBLE TO BASIC
-                MATHEMATICS provides readers with all the contents required to
-                improve their skills and basics of Mathematics such as theory of
-                numbers, operation on fractions, operation of signs, shifting of
-                terms across the equal to sign, splitting the middle term in
-                quadratic equation, properties and basic theorems of geometry,
-                mensuration, probability and many more. This book is intended
-                for all readers, even for those who have not been in touch with
-                Mathematics from the last many years.
+              This book is an attempt to clarify the concepts of mathematics from scratch for readers, making it a Maths book for all ages.<span className="purple"> BIBLE TO BASIC MATHEMATICS</span> provides the readers with all the contents required to improve their skills and basics of Mathematics such as theory of numbers, operation on fractions, operation of signs, shifting of terms across the equal to sign, splitting the middle term in quadratic equation, properties and basic theorems of geometry, mensuration, probability and many more. Amalgamation of all these different mathematical branches into one book makes it one of the best maths books for all competitive exams.
               </p>
             </div>
             <div className="bookImage">
@@ -199,8 +196,8 @@ function Home() {
                 <span className="quote"></span>
                 <CountUp
                   start={0}
-                  end={200}
-                  duration={15}
+                  end={395}
+                  duration={13}
                   className="myCounter"
                 />
                 <p>Students Taught</p>
@@ -208,22 +205,22 @@ function Home() {
               <div className="bookNumber">
                 <CountUp
                   start={0}
-                  end={10}
-                  duration={2}
+                  end={9}
+                  duration={13}
                   className="myCounter"
                 />
-                <p>Student toppers</p>
+                <p>Teaching Experience</p>
               </div>
-              <div>
-                <h2 className="counterHeading">
-                  Sales which proves our effectiveness
-                </h2>
+              <div className="bookNumber">
                 <CountUp
                   start={0}
-                  end={1000}
-                  duration={100}
+                  end={2000}
+                  duration={13}
                   className="myCounter"
                 />
+                <p>
+                Books Sold
+                </p>
               </div>
               <span className="invertedQuote"></span>
             </div>
@@ -298,7 +295,7 @@ function Home() {
                   src={image}
                   alt={`pic-${index}`}
                   key={index}
-                  style={{ width: "100%" }}
+                  style={{ width: "80%" }}
                 />
               </div>
             ))}
@@ -332,7 +329,7 @@ function Home() {
             </div>
           </div>
           <div>
-            <h1 className="mainHeading">Bible To Basic Mathematics</h1>
+            <h1 className="mainHeading">Bible to basic mathematics</h1>
             {/* add a thick underline here */}
             {/* <img src="./assets/images/Rectangle.png" alt="rectangle-2" className="thickLine"/> */}
             <hr className="myLine" />
@@ -441,9 +438,9 @@ function Home() {
       <div className="centered">
         <button onClick={navigateToAuthor}>Read more about the Author</button>
       </div>
-      <div>
+      {/* <div>
         <div className="author"></div>
-      </div>
+      </div> */}
     </div>
   );
 }

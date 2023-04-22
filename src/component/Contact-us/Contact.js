@@ -7,11 +7,11 @@ function Contact() {
         <h3>React out to us</h3>
         <div>
             <h4>Email</h4>
-            <p>mail@mail.com</p>
+            <p>pragati.688643@gmail.com</p>
             <h4>Contact number</h4>
-            <p>+91 9445445123</p>
+            <p>9329024974</p>
             <h4>Address</h4>
-            <p>My Super Address is so super duper</p>
+            <p>Juni Line, Bilaspur CG 495001</p>
         </div>
     </div> 
   )

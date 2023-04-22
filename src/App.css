@@ -2,12 +2,28 @@
   text-align: center;
   background-color: #d8d3c9;
 }
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .centered {
   /* height: 100vh; Magic here */
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-family: 'Montserrat', sans-serif !important;
 }
 html {
   scroll-behavior: smooth;

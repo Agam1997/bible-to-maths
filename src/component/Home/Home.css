@@ -14,6 +14,9 @@ img {
 }
 .mainPara {
   max-width: 70%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: larger;
+  margin-top: 50px;
 }
 .rightSemiCircle {
   width: 45px;
@@ -33,6 +36,7 @@ img {
 }
 .leftDiv {
   text-align: left;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .rightDiv {
@@ -63,6 +67,8 @@ img {
   align-items: center;
   padding: 0 20px 20px 20px;
   background-color: #d8d3c9;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
 }
 *,
 *:before,
@@ -70,6 +76,11 @@ img {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+.bookHeading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: larger;
 }
 
 .mouse_scroll {
@@ -303,6 +314,7 @@ img {
   letter-spacing: 1px;
   font-weight: 800;
   font-size: x-large;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .bookContainer {
@@ -312,6 +324,10 @@ img {
   background: #d8d3c9;
   padding: 8%;
 }
+.bookNumber p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: larger;
+}
 .bookDesc {
   flex: 0.35;
   align-items: center;
@@ -319,9 +335,22 @@ img {
   text-align: center;
 }
 .bookDesc p {
-  text-align: left;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.authorHeading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+}
+.authorDescPara {
+  font-family: 'Open Sans', sans-serif;
+  /* font-size: larger; */
+  /* font-weight: bolder; */
 }
 .centered button {
+  font-family: 'Montserrat', sans-serif;
   width: 150px;
   height: 50px;
   background-color: black;
@@ -330,7 +359,7 @@ img {
   border-style: solid;
   border-color: #706248;
   position: relative;
-  right: 2.95%;
+  /* right: 2.95%; */
   cursor: pointer;
 }
 .centered button:hover {
@@ -564,6 +593,9 @@ img {
   width: 100px;
   height: 32px;
   cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  /* font-size: larger; */
+  letter-spacing: 0.2em;
 }
 .buyNow:hover {
   background-color: #edce92;
@@ -623,13 +655,14 @@ img {
 
 .mainHeading {
   z-index: 10000 !important;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .myLine {
   color: #edce92;
   position: relative;
   bottom: 35px;
-  width: 44.7%;
+  width: 34.8%;
   margin-right: 73%;
   border: 5px solid #edce92;
   opacity: 0.8;
@@ -639,13 +672,35 @@ img {
 @media only screen and (max-width: 934px) {
   .sectionTwo {
     display: flex;
+    flex-direction: column;
     align-items: center;
     margin-top: 50px;
+  }
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 2% 8% 0% 8%; */
+    background: #d8d3c9;
   }
   .sectionThree {
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+  .sectionThree div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+  }
+  .sectionThree .bookNumbers {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 5%;
+  }
+  .authorDescPara {
+    padding: 0 5%;
   }
   .desktop {
     display: none;
@@ -676,10 +731,12 @@ img {
   .mainHeading {
     padding-top: 19px;
     font-size: larger;
+    /* font-family: Helvetica, sans-serif; */
+    font-family: 'Roboto Mono', monospace;
   }
   .myLine {
     margin-top: 25px;
-    width: 300px;
+    width: 250px;
   }
   .quote {
     font-family: Georgia, serif;

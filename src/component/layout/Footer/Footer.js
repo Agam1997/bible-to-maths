@@ -21,17 +21,17 @@ const Footer = () => {
           <FooterLink href="/contact-us">Contact-us</FooterLink>
         </div>
         <div className="columnMenu">
-          <FooterLink href="#">
+          <FooterLink href="https://www.facebook.com/pragati.agrawal.54?mibextid=ZbWKwL" target="_blank">
             <i className="fab fa-facebook-f">
               <span style={{ marginLeft: "10px" }}>Facebook</span>
             </i>
           </FooterLink>
-          <FooterLink href="#">
+          <FooterLink href="https://instagram.com/pragatiagrawal09?igshid=ZDdkNTZiNTM=" target="_blank">
             <i className="fab fa-instagram">
               <span style={{ marginLeft: "10px" }}>Instagram</span>
             </i>
           </FooterLink>
-          <FooterLink href="#">
+          <FooterLink href="https://twitter.com/pragatiagr09?t=NKttW0rTE2BipAIYa_7YPQ&s=08" target="_blank">
             <i className="fab fa-twitter">
               <span style={{ marginLeft: "10px" }}>Twitter</span>
             </i>
