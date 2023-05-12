@@ -20,32 +20,30 @@ function AboutBook() {
       <div className="desktop">
         <div className="frontRow">
           <div className="setImage">
-          <div className="leftAboutSemiCircle">
+            <div className="leftAboutSemiCircle"></div>
+            <div className="firstRowFrontImage">
+              <img src="./assets/images/front.png" alt="" />
             </div>
-          <div className="firstRowFrontImage">
-            <img src="./assets/images/front.png" alt="" />
+            <div className="rightAboutSemiCircle"></div>
           </div>
-          <div className="rightAboutSemiCircle">
-            </div>
-          </div>
-          
+
           <div className="firstRowDesc">
             <h3>About the book</h3>
             <p>
-              <span class="purple">BIBLE TO BASIC MATHEMATICS </span>is an ultimate guide to Maths. It is a
-              book that provide its readers with all the content required to
-              improve their skills and basics of Mathematics such as theory of
-              numbers, operation on fractions, operation of signs, shifting of
-              terms across the equal to sign, splitting the middle term in
-              quadratic equation, properties and basic theorems of geometry,
-              mensuration, probability and many more, making it the best
-              Mathematics book for self study.
+              <span class="purple">BIBLE TO BASIC MATHEMATICS </span>is an
+              ultimate guide to Maths. It is a book that provide its readers
+              with all the content required to improve their skills and basics
+              of Mathematics such as theory of numbers, operation on fractions,
+              operation of signs, shifting of terms across the equal to sign,
+              splitting the middle term in quadratic equation, properties and
+              basic theorems of geometry, mensuration, probability and many
+              more, making it the best Mathematics book for self study.
             </p>
           </div>
         </div>
         <div className="backRow">
           <div className="backRowDesc">
-            <h3>Book editions</h3>
+            <h3>Book Editions</h3>
             <h4>First Edition</h4>
             <p>
               This book is for any audience who want to clear their concepts of
@@ -62,8 +60,11 @@ function AboutBook() {
             </p>
             <h4>Second Edition</h4>
             <p>
-              In the Second Edition, index has also been included at the end in
-              order to access the contents in a precise manner.
+              The Second Edition now includes an index at the end of the book,
+              providing readers with a convenient and efficient way to locate
+              specific topics and concepts. By including an index, readers can
+              easily navigate through the book and quickly access the
+              information they need.
             </p>
           </div>
           <div className="backRowBackImage">
@@ -79,9 +80,31 @@ function AboutBook() {
               alt="this is a video"
               controls="true"
               height="400"
+              width="600"
             />
+            <p style={{textAlign:"center"}}>Humans of Chhattisgarh</p>
           </div>
-          <div className="rightDiv">
+          <div className="leftDiv">
+            <img
+              src="./assets/images/cpws.jpeg"
+              alt="image"
+              controls="true"
+              height="400"
+              width="600"
+            />
+            <p style={{textAlign:"center"}}>CPWS</p>
+          </div>
+          <div className="leftDiv">
+            <img
+              src="./assets/images/great.jpeg"
+              alt="image"
+              controls="true"
+              height="400"
+              width="600"
+            />
+            <p style={{textAlign:"center"}}>Raipur Great India School (Holy Heart)</p>
+          </div>
+          {/* <div className="rightDiv">
             <ol>
               <li>
                 Sainik School, Imphal gave assignment to their students to write
@@ -97,7 +120,7 @@ function AboutBook() {
               <li>CPWS</li>
               <li>Raipur Great India School (Holy Heart)</li>
             </ol>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="mobile">
@@ -148,7 +171,7 @@ function AboutBook() {
           {/* </div> */}
         </div>
         <h3>Acknowledgments</h3>
-        <div className="acknowledgments">
+        <div className="acknowledgments" id="ack">
           <div className="leftDiv">
             <video
               src="./assets/video/myVideo.mp4"
@@ -156,8 +179,29 @@ function AboutBook() {
               controls="true"
               height="400"
             />
+            <p style={{textAlign:"center"}}>Humans Of Chhattisgarh</p>
           </div>
-          <div className="rightDiv">
+          <div className="leftDiv">
+            <img
+              src="./assets/images/cpws.jpeg"
+              alt="image"
+              controls="true"
+              height="400"
+              
+            />
+            <p style={{textAlign:"center"}}>CPWS</p>
+          </div>
+          <div className="leftDiv">
+            <img
+              src="./assets/images/great.jpeg"
+              alt="image"
+              controls="true"
+              height="400"
+              
+            />
+            <p style={{textAlign:"center"}}>Raipur Great India School (Holy Heart)</p>
+          </div>
+          {/* <div className="rightDiv">
             <ol>
               <li>
                 Sainik School, Imphal gave assignment to their students to write
@@ -173,7 +217,7 @@ function AboutBook() {
               <li>CPWS</li>
               <li>Raipur Great India School (Holy Heart)</li>
             </ol>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

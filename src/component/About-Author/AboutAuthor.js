@@ -13,27 +13,17 @@ function AboutAuthor() {
           <div className="frontAuthRowDesc">
             <h3>Pragati Agrawal</h3>
             <p>
-              Pragati Agrawal, from Bilaspur (C.G.), India, is B.E., M.Tech
-              [Hons.] in the field of Computer Science and Technology. She is
-              UGC-NET and GATE qualified as well. She provided coaching to
-              students of various grades at her coaching institute from the past
-              8 years. She did the Certification of ‘Python-Programming’ and
-              ‘Deep-Learning’ from IIT – Madras. She is passionate about
-              Mathematics.
+            Pragati Agrawal has an impressive academic background with a B.E. and M.Tech [HONS] in Computer Science and Technology. She has also qualified for the UGC-NET and GATE exams. Additionally, she has over nine years of experience in coaching students of various grades, which indicates her commitment to education and teaching.
+Furthermore, she has completed certification courses in Python Programming and Deep Learning from IIT, Madras. This is an evidence of her interest and expertise in programming and machine learning.
+Lastly, Pragati Agrawal is passionate about Mathematics, which can be an essential foundation for Computer Science and Machine Learning. Her passion for the subject may inspire her to delve deeper into mathematical concepts and apply them to her work in the field of technology.
             </p>
           </div>
         </div>
         <div className="backRow">
           <div className="backRowDesc">
-            <h3>Why i write the book?</h3>
+            <h3>What inspired her to write the book?</h3>
             <p>
-              As during her teaching career, she noticed that there is some lack
-              of understanding in basic concept of Mathematics. So, in a casual
-              conversation her brother suggested to transform the concept and
-              knowledge into a book. This motivated her to attempt to write this
-              book. She started writing in October-2019 and finished it in
-              November, 2019. She decided to self publish it in the name of her
-              grand-parents.
+            While working as a teacher, she observed that some students struggled with fundamental concepts in Mathematics. In a casual conversation with her brother, he proposed transforming her knowledge into a book, which motivated her to begin writing. Starting in October 2019, she completed the book the following month and decided to self-publish it under her grandparents' name.
             </p>
           </div>
           <div className="backRowBackImage">
@@ -50,13 +40,9 @@ function AboutAuthor() {
           <div className="frontAuthRowDesc">
             <h3>Pragati Agrawal</h3>
             <p>
-              Pragati Agrawal, from Bilaspur (C.G.), India, is B.E., M.Tech
-              [Hons.] in the field of Computer Science and Technology. She is
-              UGC-NET and GATE qualified as well. She provided coaching to
-              students of various grades at her coaching institute from the past
-              8 years. She did the Certification of ‘Python-Programming’ and
-              ‘Deep-Learning’ from IIT – Madras. She is passionate about
-              Mathematics.
+            Pragati Agrawal has an impressive academic background with a B.E. and M.Tech [HONS] in Computer Science and Technology. She has also qualified for the UGC-NET and GATE exams. Additionally, she has over nine years of experience in coaching students of various grades, which indicates her commitment to education and teaching.
+Furthermore, she has completed certification courses in Python Programming and Deep Learning from IIT, Madras. This is an evidence of her interest and expertise in programming and machine learning.
+Lastly, Pragati Agrawal is passionate about Mathematics, which can be an essential foundation for Computer Science and Machine Learning. Her passion for the subject may inspire her to delve deeper into mathematical concepts and apply them to her work in the field of technology.
             </p>
           </div>
         </div>

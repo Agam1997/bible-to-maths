@@ -57,21 +57,15 @@ function Home() {
 
           <div className="leftDiv">
             <h4 className="upperHeading">
-              -- A comprehensive guide to mathematics
+              -- A Comprehensive Guide To Mathematics
             </h4>
             <div>
-              <h1 className="mainHeading">Bible to basic mathematics</h1>
+              <h1 className="mainHeading">Bible To Basic Mathematics</h1>
               <hr className="myLine" />
             </div>
             <div className="mainPara">
               <p>
-                <span className="purple">BIBLE TO BASIC MATHEMATICS</span> is a book that can be used to clear the 
-                basic maths for competitive exams as well as for school syllabus. 
-                It has been an interesting journey to write this book. 
-                This book works with a flow starting from the theory of numbers followed by
-                many important concepts. I have made an attempt to put all the
-                important concepts of mathematics together in a single book and in doing so I have
-                tried to make it the best book for basic mathematics.
+                <span className="purple">BIBLE TO BASIC MATHEMATICS</span> is a book that can be used to clear the basic maths for school syllabus as well as for competitive exams. It has been an interesting journey to write this book. This book works with a flow starting from the theory of numbers followed by many important concepts. I have made an attempt to put all the important concepts of mathematics together in a single book and in doing so I have tried to make it the best book for basic mathematics.
               </p>
             </div>
             <br />
@@ -120,10 +114,10 @@ function Home() {
             }
             style={{ cursor: "pointer" }}
           >
-            Buy Now!?
+            Buy Now!
           </p>
           <div>
-            <p>Scoll to explore</p>
+            <p>Scroll to explore</p>
             <div class="mouse_scroll" onClick={executeScroll}>
               {/* <div class="mouse">
               <div class="wheel"></div>
@@ -137,9 +131,9 @@ function Home() {
           </div>
 
           <p>
-            <a href="https://instagram.com/pragatiagrawal09?igshid=ZDdkNTZiNTM=">Insta </a>
-            <a href="https://www.facebook.com/pragati.agrawal.54?mibextid=ZbWKwL">Facebook </a>
-            <a href="https://twitter.com/pragatiagr09?t=NKttW0rTE2BipAIYa_7YPQ&s=08">Twitter</a>
+            <a href="https://instagram.com/pragatiagrawal09?igshid=ZDdkNTZiNTM=" target="_blank">Insta </a>
+            <a href="https://www.facebook.com/pragati.agrawal.54?mibextid=ZbWKwL" target="_blank">Facebook </a>
+            <a href="https://twitter.com/pragatiagr09?t=NKttW0rTE2BipAIYa_7YPQ&s=08" target="_blank">Twitter</a>
           </p>
         </div>
 
@@ -209,7 +203,7 @@ function Home() {
                   duration={13}
                   className="myCounter"
                 />
-                <p>Teaching Experience</p>
+                <p>Teaching Experience (yrs)</p>
               </div>
               <div className="bookNumber">
                 <CountUp
@@ -241,19 +235,9 @@ function Home() {
             <div className="authorDesc">
               <h4 className="authorHeading">Pragati Agrawal</h4>
               <p className="authorDescPara">
-                B.E., M.Tech [Hons.] in the field of Computer Science and
-                Technology. She is UGC-NET and GATE qualified as well. She
-                provided coaching to students of various grades at her coaching
-                institute from the past 8 years. She did the Certification of
-                ‘Python-Programming’ and ‘Deep-Learning’ from IIT – Madras. She
-                is passionate about Mathematics. Why i write the book? As during
-                her teaching career, she noticed that there is some lack of
-                understanding in basic concept of Mathematics. So, in a casual
-                conversation her brother suggested to transform the concept and
-                knowledge into a book. This motivated her to attempt to write
-                this book. She started writing in October-2019 and finished it
-                in November, 2019. She decided to self publish it in the name of
-                her grand-parents.
+              Pragati Agrawal has an impressive academic background with a B.E. and M.Tech [HONS] in Computer Science and Technology. She has also qualified for the UGC-NET and GATE exams. Additionally, she has over nine years of experience in coaching students of various grades, which indicates her commitment to education and teaching.
+Furthermore, she has completed certification courses in Python Programming and Deep Learning from IIT, Madras. This is an evidence of her interest and expertise in programming and machine learning.
+Lastly, Pragati Agrawal is passionate about Mathematics, which can be an essential foundation for Computer Science and Machine Learning. Her passion for the subject may inspire her to delve deeper into mathematical concepts and apply them to her work in the field of technology.
               </p>
               {/* <div className="authorNumbers">
             <div className="authorNumber">
@@ -423,14 +407,9 @@ function Home() {
             coaching to students of various grades at her coaching institute
             from the past 8 years. She did the Certification of
             ‘Python-Programming’ and ‘Deep-Learning’ from IIT – Madras. She is
-            passionate about Mathematics. Why i write the book? As during her
-            teaching career, she noticed that there is some lack of
-            understanding in basic concept of Mathematics. So, in a casual
-            conversation her brother suggested to transform the concept and
-            knowledge into a book. This motivated her to attempt to write this
-            book. She started writing in October-2019 and finished it in
-            November, 2019. She decided to self publish it in the name of her
-            grand-parents.
+            passionate about Mathematics. 
+            What inspired her to write the book?
+             While working as a teacher, she observed that some students struggled with fundamental concepts in Mathematics. In a casual conversation with her brother, he proposed transforming her knowledge into a book, which motivated her to begin writing. Starting in October 2019, she completed the book the following month and decided to self-publish it under her grandparents' name.
           </p>
         </div>
         </div>
