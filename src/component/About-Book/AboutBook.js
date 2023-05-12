@@ -72,7 +72,7 @@ function AboutBook() {
           </div>
           {/* </div> */}
         </div>
-        <h3>Acknowledgments</h3>
+        <h3 className="title">Acknowledgments</h3>
         <div className="acknowledgments">
           <div className="leftDiv">
             <video
@@ -80,7 +80,7 @@ function AboutBook() {
               alt="this is a video"
               controls="true"
               height="400"
-              width="600"
+              // width="600"
             />
             <p style={{textAlign:"center"}}>Humans of Chhattisgarh</p>
           </div>
@@ -92,7 +92,7 @@ function AboutBook() {
               height="400"
               width="600"
             />
-            <p style={{textAlign:"center"}}>CPWS</p>
+            <p style={{textAlign:"center"}}>CPWS, Bilaspur</p>
           </div>
           <div className="leftDiv">
             <img
@@ -102,7 +102,7 @@ function AboutBook() {
               height="400"
               width="600"
             />
-            <p style={{textAlign:"center"}}>Raipur Great India School (Holy Heart)</p>
+            <p style={{textAlign:"center"}}>The Great India School (Holy Hearts), Raipur</p>
           </div>
           {/* <div className="rightDiv">
             <ol>
@@ -170,7 +170,7 @@ function AboutBook() {
           </div>
           {/* </div> */}
         </div>
-        <h3>Acknowledgments</h3>
+        <h3 className="title">Acknowledgments</h3>
         <div className="acknowledgments" id="ack">
           <div className="leftDiv">
             <video
@@ -189,7 +189,7 @@ function AboutBook() {
               height="400"
               
             />
-            <p style={{textAlign:"center"}}>CPWS</p>
+            <p style={{textAlign:"center"}}>CPWS, Bilaspur</p>
           </div>
           <div className="leftDiv">
             <img
@@ -199,7 +199,7 @@ function AboutBook() {
               height="400"
               
             />
-            <p style={{textAlign:"center"}}>Raipur Great India School (Holy Heart)</p>
+            <p style={{textAlign:"center"}}>The Great India School (Holy Hearts), Raipur</p>
           </div>
           {/* <div className="rightDiv">
             <ol>
