@@ -10,6 +10,12 @@
   justify-content: space-around;
   padding: 8% 0 0 0;
 }
+.desktop {
+    background: #D8D3C9 !important;
+}
+.mobile {
+    background: #D8D3C9 !important;
+}
 
 .firstRowDesc {
   flex: 0.6;

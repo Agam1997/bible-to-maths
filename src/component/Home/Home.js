@@ -83,12 +83,12 @@ function Home() {
             </button>
           </div>
           <div className="rightDiv">
-            <div className="leftSemiCircle">
-            </div>
+            {/* <div className="leftSemiCircle">
+            </div> */}
             <div>
               <img
                 className="mainImage"
-                src="./assets/images/front.png"
+                src="./assets/images/book_tilted.png"
                 alt=""
                 onClick={() =>
                   window.open(
@@ -99,8 +99,8 @@ function Home() {
               />
               {/* book image */}
             </div>
-            <div className="rightSemiCircle">
-            </div>
+            {/* <div className="rightSemiCircle">
+            </div> */}
           </div>
         </div>
         <div className="bannerBottom">
@@ -289,10 +289,10 @@ Lastly, Pragati Agrawal is passionate about Mathematics, which can be an essenti
       <div className="mobile">
         <div className="sectionOne">
           <div className="rightDiv">
-            <div className="leftSemiCircle">
+            {/* <div className="leftSemiCircle"> */}
               {/* left pink  semi circle*/}
               {/* <img src="./assets/images/testimage.jpg" alt="" /> */}
-            </div>
+            {/* </div> */}
             <div>
               <img
                 className="mainImage"
@@ -307,10 +307,10 @@ Lastly, Pragati Agrawal is passionate about Mathematics, which can be an essenti
               />
               {/* book image */}
             </div>
-            <div className="rightSemiCircle">
+            {/* <div className="rightSemiCircle"> */}
               {/* <img src="./assets/images/testimage.jpg" alt="" /> */}
               {/* bottom right semi circle */}
-            </div>
+            {/* </div> */}
           </div>
           <div>
             <h1 className="mainHeading">Bible to basic mathematics</h1>

@@ -1,8 +1,15 @@
 .contact {
     padding-top: 5%;
     text-align: center;
+    background: #D8D3C9 !important;
 }
 
 .contact p {
     text-align: center !important;
+}
+.desktop {
+    background: #D8D3C9 !important;
+}
+.mobile {
+    background: #D8D3C9 !important;
 }
