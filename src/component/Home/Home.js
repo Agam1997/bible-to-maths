@@ -133,7 +133,7 @@ function Home() {
           <p>
             <a href="https://instagram.com/pragatiagrawal09?igshid=ZDdkNTZiNTM=" target="_blank">Insta </a>
             <a href="https://www.facebook.com/pragati.agrawal.54?mibextid=ZbWKwL" target="_blank">Facebook </a>
-            <a href="https://twitter.com/pragatiagr09?t=NKttW0rTE2BipAIYa_7YPQ&s=08" target="_blank">Twitter</a>
+            <a href="https://www.linkedin.com/in/pragati-agrawal-9890h" target="_blank">LinkedIn</a>
           </p>
         </div>
 
@@ -190,7 +190,7 @@ function Home() {
                 <span className="quote"></span>
                 <CountUp
                   start={0}
-                  end={395}
+                  end={700}
                   duration={13}
                   className="myCounter"
                 />
@@ -199,7 +199,7 @@ function Home() {
               <div className="bookNumber">
                 <CountUp
                   start={0}
-                  end={9}
+                  end={10}
                   duration={13}
                   className="myCounter"
                 />
@@ -208,7 +208,7 @@ function Home() {
               <div className="bookNumber">
                 <CountUp
                   start={0}
-                  end={2000}
+                  end={5000}
                   duration={13}
                   className="myCounter"
                 />
@@ -366,27 +366,32 @@ Lastly, Pragati Agrawal is passionate about Mathematics, which can be an essenti
               <span className="quote"></span>
               <CountUp
                 start={0}
-                end={200}
+                end={700}
                 duration={15}
                 className="myCounter"
               />
               <p>Students Taught</p>
             </div>
             <div className="bookNumber">
-              <CountUp start={0} end={10} duration={2} className="myCounter" />
-              <p>Student toppers</p>
-            </div>
-            <div>
-              <h2 className="counterHeading">
-                Sales which proves our effectiveness
-              </h2>
-              <CountUp
-                start={0}
-                end={1000}
-                duration={100}
-                className="myCounter"
-              />
-            </div>
+                <CountUp
+                  start={0}
+                  end={10}
+                  duration={13}
+                  className="myCounter"
+                />
+                <p>Teaching Experience (yrs)</p>
+              </div>
+              <div className="bookNumber">
+                <CountUp
+                  start={0}
+                  end={5000}
+                  duration={13}
+                  className="myCounter"
+                />
+                <p>
+                Books Sold
+                </p>
+              </div>
             <span className="invertedQuote"></span>
           </div>
           <div className="centered">
@@ -402,14 +407,8 @@ Lastly, Pragati Agrawal is passionate about Mathematics, which can be an essenti
         <div className="authorDesc">
           <h4 className="authorHeading">Pragati Agrawal</h4>
           <p className="authorDescPara">
-            B.E., M.Tech [Hons.] in the field of Computer Science and
-            Technology. She is UGC-NET and GATE qualified as well. She provided
-            coaching to students of various grades at her coaching institute
-            from the past 8 years. She did the Certification of
-            ‘Python-Programming’ and ‘Deep-Learning’ from IIT – Madras. She is
-            passionate about Mathematics. 
-            What inspired her to write the book?
-             While working as a teacher, she observed that some students struggled with fundamental concepts in Mathematics. In a casual conversation with her brother, he proposed transforming her knowledge into a book, which motivated her to begin writing. Starting in October 2019, she completed the book the following month and decided to self-publish it under her grandparents' name.
+          has an impressive academic background with a B.E. and M.Tech [HONS] in Computer Science and Technology. She has also qualified for the UGC-NET and GATE exams. Additionally, she has over nine years of experience in coaching students of various grades, which indicates her commitment to education and teaching. Furthermore, she has completed certification courses in Python Programming, Natural Language Processing, Data Analytics, Deep Learning from various IIT's , along with Computer Science, Artificial Intelligence and Machine Learning. 
+<br /> This is an evidence of her interest and expertise in programming and machine learning. Lastly, Pragati Agrawal is passionate about Mathematics, which can be an essential foundation for Computer Science and Machine Learning. Her passion for the subject may inspire her to dwell deeper into mathematical concepts and apply them to her work in the field of technology.
           </p>
         </div>
         </div>

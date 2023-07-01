@@ -44,6 +44,7 @@ function AboutBook() {
         <div className="backRow">
           <div className="backRowDesc">
             <h3>Book Editions</h3>
+            <br />
             <h4>First Edition</h4>
             <p>
               This book is for any audience who want to clear their concepts of

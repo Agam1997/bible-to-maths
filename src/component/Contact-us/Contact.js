@@ -8,7 +8,7 @@ function Contact() {
         <div>
             <h4>Email</h4>
             <p>pragati.688643@gmail.com</p>
-            <h4>Contact Number</h4>
+            <h4>WhatsApp</h4>
             <p>9329024974</p>
             <h4>Address</h4>
             <p>Juni Line, Bilaspur CG, 495001</p>
