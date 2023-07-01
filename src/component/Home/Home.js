@@ -407,7 +407,7 @@ Lastly, Pragati Agrawal is passionate about Mathematics, which can be an essenti
         <div className="authorDesc">
           <h4 className="authorHeading">Pragati Agrawal</h4>
           <p className="authorDescPara">
-          has an impressive academic background with a B.E. and M.Tech [HONS] in Computer Science and Technology. She has also qualified for the UGC-NET and GATE exams. Additionally, she has over nine years of experience in coaching students of various grades, which indicates her commitment to education and teaching. Furthermore, she has completed certification courses in Python Programming, Natural Language Processing, Data Analytics, Deep Learning from various IIT's , along with Computer Science, Artificial Intelligence and Machine Learning. 
+          Pragati Agrawal has an impressive academic background with a B.E. and M.Tech [HONS] in Computer Science and Technology. She has also qualified for the UGC-NET and GATE exams. Additionally, she has over nine years of experience in coaching students of various grades, which indicates her commitment to education and teaching. Furthermore, she has completed certification courses in Python Programming, Natural Language Processing, Data Analytics, Deep Learning from various IIT's , along with Computer Science, Artificial Intelligence and Machine Learning. 
 <br /> This is an evidence of her interest and expertise in programming and machine learning. Lastly, Pragati Agrawal is passionate about Mathematics, which can be an essential foundation for Computer Science and Machine Learning. Her passion for the subject may inspire her to dwell deeper into mathematical concepts and apply them to her work in the field of technology.
           </p>
         </div>
