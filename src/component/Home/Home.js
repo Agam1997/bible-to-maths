@@ -191,7 +191,7 @@ function Home() {
                 <CountUp
                   start={0}
                   end={700}
-                  duration={13}
+                  duration={3.7}
                   className="myCounter"
                 />
                 <p>Students Taught</p>
@@ -200,7 +200,7 @@ function Home() {
                 <CountUp
                   start={0}
                   end={10}
-                  duration={13}
+                  duration={3.7}
                   className="myCounter"
                 />
                 <p>Teaching Experience (yrs)</p>
@@ -209,7 +209,7 @@ function Home() {
                 <CountUp
                   start={0}
                   end={5000}
-                  duration={13}
+                  duration={3.7}
                   className="myCounter"
                 />
                 <p>
@@ -367,7 +367,7 @@ Lastly, Pragati Agrawal is passionate about Mathematics, which can be an essenti
               <CountUp
                 start={0}
                 end={700}
-                duration={15}
+                duration={4}
                 className="myCounter"
               />
               <p>Students Taught</p>
@@ -376,7 +376,7 @@ Lastly, Pragati Agrawal is passionate about Mathematics, which can be an essenti
                 <CountUp
                   start={0}
                   end={10}
-                  duration={13}
+                  duration={3}
                   className="myCounter"
                 />
                 <p>Teaching Experience (yrs)</p>
@@ -385,7 +385,7 @@ Lastly, Pragati Agrawal is passionate about Mathematics, which can be an essenti
                 <CountUp
                   start={0}
                   end={5000}
-                  duration={13}
+                  duration={3}
                   className="myCounter"
                 />
                 <p>

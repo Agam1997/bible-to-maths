@@ -31,9 +31,9 @@ const Footer = () => {
               <span style={{ marginLeft: "10px" }}>Instagram</span>
             </i>
           </FooterLink>
-          <FooterLink href="https://twitter.com/pragatiagr09?t=NKttW0rTE2BipAIYa_7YPQ&s=08" target="_blank">
-            <i className="fab fa-twitter">
-              <span style={{ marginLeft: "10px" }}>Twitter</span>
+          <FooterLink href="https://www.linkedin.com/in/pragati-agrawal-9890h" target="_blank">
+            <i className="fab fa-linkedin">
+              <span style={{ marginLeft: "10px" }}>LinkedIn</span>
             </i>
           </FooterLink>
           {/* <FooterLink href="#">

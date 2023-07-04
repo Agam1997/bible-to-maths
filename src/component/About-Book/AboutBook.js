@@ -105,6 +105,18 @@ function AboutBook() {
             />
             <p style={{textAlign:"center"}}>The Great India School (Holy Hearts), Raipur</p>
           </div>
+          <div className="leftDiv">
+            <img
+              src="./assets/images/ack_2.jpeg"
+              alt="image"
+              controls="true"
+              height="600"
+              width="600"
+              style={{paddingTop: "70px !important"}}
+            />
+            <p style={{textAlign:"center"}}>Honored at NPTEL of being a course topper!! <a href="https://www.imprzd.com/bi/NPTEL37645.html">Find out more here</a></p>
+            
+          </div>
           {/* <div className="rightDiv">
             <ol>
               <li>
@@ -201,6 +213,18 @@ function AboutBook() {
               
             />
             <p style={{textAlign:"center"}}>The Great India School (Holy Hearts), Raipur</p>
+          </div>
+          <div className="leftDiv">
+            <img
+              src="./assets/images/ack_2.jpeg"
+              alt="image"
+              controls="true"
+              height="600"
+              width="600"
+              style={{paddingTop: "70px !important"}}
+            />
+            <p style={{textAlign:"center"}}>Honored at NPTEL of being a course topper!! <a href="https://www.imprzd.com/bi/NPTEL37645.html">Find out more here</a></p>
+            
           </div>
           {/* <div className="rightDiv">
             <ol>
