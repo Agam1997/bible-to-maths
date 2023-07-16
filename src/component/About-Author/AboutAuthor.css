@@ -29,14 +29,14 @@
 }
 
 .firstAuthRowFrontImage img {
-    width: 270px !important;
-    height: 350px !important;
-    object-fit: contain;
+    width: 310px !important;
+    height: 400px !important;
+    /* object-fit: contain; */
 }
 
 .backRowBackImage img {
-    width: 270px !important;
-    height: 350px !important;
+    width: 370px !important;
+    height: 370px !important;
 }
 .desktop {
     background: #D8D3C9 !important;
@@ -79,3 +79,11 @@
       width: 100%;
     }
   } */
+
+  .highlight{
+    /* display: inline-block; */
+    /* padding: .25em 0; */
+    /* background: #FFC107; */
+    text-decoration-line: underline !important;
+    color: black;
+}

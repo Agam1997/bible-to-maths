@@ -421,8 +421,8 @@ img {
   max-width: 50%;
 }
 .authorImage img {
-  width: 270px;
-  height: 350px;
+  width: 380px;
+  height: 380px;
 }
 .mainImage {
   cursor: pointer;
@@ -527,6 +527,10 @@ img {
   height: 35vw !important;
 }
 @media only screen and (max-width: 934px) {
+  .mainImage {
+    width: 320px !important;
+    height: 450px !important;
+  }
   .upperHeading {
     display: none;
   }
