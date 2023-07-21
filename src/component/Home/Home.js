@@ -18,11 +18,12 @@ function Home() {
   };
   const myRef = useRef();
 
-  const executeScroll = () => myRef.current.scrollIntoView({
-    behavior: "smooth",
-    block: "nearest",
-    inline: "start"
-  });
+  const executeScroll = () =>
+    myRef.current.scrollIntoView({
+      behavior: "smooth",
+      block: "nearest",
+      inline: "start",
+    });
   let reviews = [
     "./assets/images/review1.jpeg",
     "./assets/images/review2.jpeg",
@@ -38,13 +39,26 @@ function Home() {
     <div>
       {/* home header */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"></link>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet"></link>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"></link>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"></link>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+        rel="stylesheet"
+      ></link>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap"
+        rel="stylesheet"
+      ></link>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+        rel="stylesheet"
+      ></link>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+        rel="stylesheet"
+      ></link>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"></link>
       <div className="desktop">
         <div className="leftAloneSvg">
           <img src="./assets/images/Pattern.png" alt="pattern-1" />
@@ -65,7 +79,15 @@ function Home() {
             </div>
             <div className="mainPara">
               <p>
-                <span className="purple">BIBLE TO BASIC MATHEMATICS</span> is a book that can be used to clear the basic maths for school syllabus as well as for competitive exams. It has been an interesting journey to write this book. This book works with a flow starting from the theory of numbers followed by many important concepts. I have made an attempt to put all the important concepts of mathematics together in a single book and in doing so I have tried to make it the best book for basic mathematics.
+                <span className="purple">BIBLE TO BASIC MATHEMATICS</span> is a
+                book that can be used to clear the basic maths for school
+                syllabus as well as for competitive exams. It has been an
+                interesting journey to write this book. This book works with a
+                flow starting from the theory of numbers followed by many
+                important concepts. I have made an attempt to put all the
+                important concepts of mathematics together in a single book and
+                in doing so I have tried to make it the best book for basic
+                mathematics.
               </p>
             </div>
             <br />
@@ -131,9 +153,24 @@ function Home() {
           </div>
 
           <p>
-            <a href="https://instagram.com/pragatiagrawal09?igshid=ZDdkNTZiNTM=" target="_blank">Insta </a>
-            <a href="https://www.facebook.com/pragati.agrawal.54?mibextid=ZbWKwL" target="_blank">Facebook </a>
-            <a href="https://www.linkedin.com/in/pragati-agrawal-9890h" target="_blank">LinkedIn</a>
+            <a
+              href="https://instagram.com/pragatiagrawal09?igshid=ZDdkNTZiNTM="
+              target="_blank"
+            >
+              Insta{" "}
+            </a>
+            <a
+              href="https://www.facebook.com/pragati.agrawal.54?mibextid=ZbWKwL"
+              target="_blank"
+            >
+              Facebook{" "}
+            </a>
+            <a
+              href="https://www.linkedin.com/in/pragati-agrawal-9890h"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
           </p>
         </div>
 
@@ -176,7 +213,17 @@ function Home() {
             <div className="bookDesc">
               <h4 className="bookHeading">Bible to Basic Mathematics</h4>
               <p>
-              This book is an attempt to clarify the concepts of mathematics from scratch for readers, making it a Maths book for all ages.<span className="purple"> BIBLE TO BASIC MATHEMATICS</span> provides the readers with all the contents required to improve their skills and basics of Mathematics such as theory of numbers, operation on fractions, operation of signs, shifting of terms across the equal to sign, splitting the middle term in quadratic equation, properties and basic theorems of geometry, mensuration, probability and many more. Amalgamation of all these different mathematical branches into one book makes it one of the best maths books for all competitive exams.
+                This book is an attempt to clarify the concepts of mathematics
+                from scratch for readers, making it a Maths book for all ages.
+                <span className="purple"> BIBLE TO BASIC MATHEMATICS</span>{" "}
+                provides the readers with all the contents required to improve
+                their skills and basics of Mathematics such as theory of
+                numbers, operation on fractions, operation of signs, shifting of
+                terms across the equal to sign, splitting the middle term in
+                quadratic equation, properties and basic theorems of geometry,
+                mensuration, probability and many more. Amalgamation of all
+                these different mathematical branches into one book makes it one
+                of the best maths books for all competitive exams.
               </p>
             </div>
             <div className="bookImage">
@@ -212,9 +259,7 @@ function Home() {
                   duration={3.7}
                   className="myCounter"
                 />
-                <p>
-                Books Sold
-                </p>
+                <p>Books Sold</p>
               </div>
               <span className="invertedQuote"></span>
             </div>
@@ -235,7 +280,22 @@ function Home() {
             <div className="authorDesc">
               <h4 className="authorHeading">Pragati Agrawal</h4>
               <p className="authorDescPara">
-              Pragati Agrawal has an impressive academic background with a B.E. and M.Tech [HONS] in Computer Science and Technology. She has also qualified for the UGC-NET and GATE exams. Additionally, she has over ten years of experience in coaching students of various grades, which indicates her commitment to education and teaching. Furthermore, she has completed certification courses in Python Programming, Natural Language Processing, Data Analytics, Deep Learning from various IITs, along with interests in Computer Science, Artificial Intelligence and Machine Learning. <br/>This is an evidence of her interest and expertise in programming and machine learning. Lastly, Pragati Agrawal is passionate about Mathematics, which can be an essential foundation for Computer Science and Machine Learning. Her passion for the subject may inspire her to delve deeper into mathematical concepts and apply them to her work in the field of technology.
+                Pragati Agrawal has an impressive academic background with a
+                B.E. and M.Tech [HONS] in Computer Science and Technology. She
+                has also qualified for the UGC-NET and GATE exams. Additionally,
+                she has over ten years of experience in coaching students of
+                various grades, which indicates her commitment to education and
+                teaching. Furthermore, she has completed certification courses
+                in Python Programming, Natural Language Processing, Data
+                Analytics, Deep Learning from various IITs, along with interests
+                in Computer Science, Artificial Intelligence and Machine
+                Learning. <br />
+                This is an evidence of her interest and expertise in programming
+                and machine learning. Lastly, Pragati Agrawal is passionate
+                about Mathematics, which can be an essential foundation for
+                Computer Science and Machine Learning. Her passion for the
+                subject may inspire her to delve deeper into mathematical
+                concepts and apply them to her work in the field of technology.
               </p>
               {/* <div className="authorNumbers">
             <div className="authorNumber">
@@ -288,8 +348,8 @@ function Home() {
         <div className="sectionOne">
           <div className="rightDiv">
             {/* <div className="leftSemiCircle"> */}
-              {/* left pink  semi circle*/}
-              {/* <img src="./assets/images/testimage.jpg" alt="" /> */}
+            {/* left pink  semi circle*/}
+            {/* <img src="./assets/images/testimage.jpg" alt="" /> */}
             {/* </div> */}
             <div>
               <img
@@ -306,8 +366,8 @@ function Home() {
               {/* book image */}
             </div>
             {/* <div className="rightSemiCircle"> */}
-              {/* <img src="./assets/images/testimage.jpg" alt="" /> */}
-              {/* bottom right semi circle */}
+            {/* <img src="./assets/images/testimage.jpg" alt="" /> */}
+            {/* bottom right semi circle */}
             {/* </div> */}
           </div>
           <div>
@@ -329,6 +389,35 @@ function Home() {
               Buy Now
             </button>
           </div>
+          <div style={{paddingTop: "30px"}}>
+            <p>Follow us on </p>
+          </div>
+          <div className="socialContainer">
+              <div className="socialIcon">
+                <a
+                  href="https://www.facebook.com/pragati.agrawal.54?mibextid=ZbWKwL"
+                  target="_blank"
+                >
+                  <i className="fab fa-facebook-f"></i>
+                </a>
+              </div>
+              <div className="socialIcon">
+                <a
+                  href="https://instagram.com/pragatiagrawal09?igshid=ZDdkNTZiNTM="
+                  target="_blank"
+                >
+                  <i className="fab fa-instagram"></i>
+                </a>
+              </div>
+              <div className="socialIcon">
+                <a
+                  href="https://www.linkedin.com/in/pragati-agrawal-9890h"
+                  target="_blank"
+                >
+                  <i className="fab fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
         </div>
         <div className="sectionTwo">
           <div className="testimonial" id="testimonial" ref={myRef}>
@@ -362,34 +451,22 @@ function Home() {
 
             <div className="bookNumber">
               <span className="quote"></span>
-              <CountUp
-                start={0}
-                end={700}
-                duration={4}
-                className="myCounter"
-              />
+              <CountUp start={0} end={700} duration={4} className="myCounter" />
               <p>Students Taught</p>
             </div>
             <div className="bookNumber">
-                <CountUp
-                  start={0}
-                  end={10}
-                  duration={3}
-                  className="myCounter"
-                />
-                <p>Teaching Experience (yrs)</p>
-              </div>
-              <div className="bookNumber">
-                <CountUp
-                  start={0}
-                  end={5000}
-                  duration={3}
-                  className="myCounter"
-                />
-                <p>
-                Books Sold
-                </p>
-              </div>
+              <CountUp start={0} end={10} duration={3} className="myCounter" />
+              <p>Teaching Experience (yrs)</p>
+            </div>
+            <div className="bookNumber">
+              <CountUp
+                start={0}
+                end={5000}
+                duration={3}
+                className="myCounter"
+              />
+              <p>Books Sold</p>
+            </div>
             <span className="invertedQuote"></span>
           </div>
           <div className="centered">
@@ -401,22 +478,40 @@ function Home() {
             {/* left div image */}
             <img src="./assets/images/author_book_2.jpg" alt="" />
           </div>
-        
-        <div className="authorDesc">
-          <h4 className="authorHeading">Pragati Agrawal</h4>
-          <p className="authorDescPara">
-          Pragati Agrawal has an impressive academic background with a B.E. and M.Tech [HONS] in Computer Science and Technology. She has also qualified for the UGC-NET and GATE exams. Additionally, she has over ten years of experience in coaching students of various grades, which indicates her commitment to education and teaching. Furthermore, she has completed certification courses in Python Programming, Natural Language Processing, Data Analytics, Deep Learning from various IITs, along with interests in Computer Science, Artificial Intelligence and Machine Learning. <br/>This is an evidence of her interest and expertise in programming and machine learning. Lastly, Pragati Agrawal is passionate about Mathematics, which can be an essential foundation for Computer Science and Machine Learning. Her passion for the subject may inspire her to delve deeper into mathematical concepts and apply them to her work in the field of technology.
-          </p>
-        </div>
+
+          <div className="authorDesc">
+            <h4 className="authorHeading">Pragati Agrawal</h4>
+            <p className="authorDescPara">
+              Pragati Agrawal has an impressive academic background with a B.E.
+              and M.Tech [HONS] in Computer Science and Technology. She has also
+              qualified for the UGC-NET and GATE exams. Additionally, she has
+              over ten years of experience in coaching students of various
+              grades, which indicates her commitment to education and teaching.
+              Furthermore, she has completed certification courses in Python
+              Programming, Natural Language Processing, Data Analytics, Deep
+              Learning from various IITs, along with interests in Computer
+              Science, Artificial Intelligence and Machine Learning. <br />
+              This is an evidence of her interest and expertise in programming
+              and machine learning. Lastly, Pragati Agrawal is passionate about
+              Mathematics, which can be an essential foundation for Computer
+              Science and Machine Learning. Her passion for the subject may
+              inspire her to delve deeper into mathematical concepts and apply
+              them to her work in the field of technology.
+            </p>
+          </div>
         </div>
       </div>
       <div className="centered">
-        <button onClick={() =>
-                window.open(
-                  "https://www.amazon.in/BIBLE-BASIC-MATHEMATICS-MATHS-COMPETITIVE/dp/8194681308/ref=sr_1_1?crid=OJZSKDBWRZQ3&keywords=bible+to+maths&qid=1674392962&sprefix=%2Caps%2C488&sr=8-1",
-                  "_blank"
-                )
-              }>Buy now</button>
+        <button
+          onClick={() =>
+            window.open(
+              "https://www.amazon.in/BIBLE-BASIC-MATHEMATICS-MATHS-COMPETITIVE/dp/8194681308/ref=sr_1_1?crid=OJZSKDBWRZQ3&keywords=bible+to+maths&qid=1674392962&sprefix=%2Caps%2C488&sr=8-1",
+              "_blank"
+            )
+          }
+        >
+          Buy now
+        </button>
       </div>
       {/* <div>
         <div className="author"></div>

@@ -803,3 +803,12 @@ img {
 .mobile {
   display: none;
 }
+
+.socialContainer {
+  padding-top: 5px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; 
+}
