@@ -33,8 +33,6 @@ img {
   justify-content: center;
   padding: 6% 8% 0 8%;
   background-image: url("../../../public/assets/images/bg_main2.png");
-  /* background: #d8d3c9; */
-  /* height: 40%; */
 }
 .leftDiv {
   text-align: left;
@@ -425,7 +423,6 @@ img {
 }
 
 .reviews .slide {
-  /* background: #d8d3c9; */
   color: black;
   height: 100%;
 }
@@ -679,6 +676,9 @@ img {
   /* background-color: ; */
 }
 @media only screen and (max-width: 934px) {
+  .mobileTestimonial {
+    width: 100%;
+  }
   .sectionTwo {
     display: flex;
     flex-direction: column;
@@ -686,11 +686,11 @@ img {
     margin-top: 50px;
   }
   .testimonial {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    /* padding: 2% 8% 0% 8%; */
     background: #d8d3c9;
   }
   .sectionThree {

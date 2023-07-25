@@ -130,7 +130,8 @@
     width: 24% !important;
     border-radius: 50%;
   }
-  .testLeftDiv .carousel-root .carousel .control-dots {
+   .mobileTestimonial .carousel-root .carousel .control-dots {
+    
     top: 350px !important;
 }
 }

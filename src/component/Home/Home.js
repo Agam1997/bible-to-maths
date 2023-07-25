@@ -67,7 +67,6 @@ function Home() {
           <img src="./assets/images/Pattern.png" alt="pattern-1" />
         </div>
         <div id="bannerSection">
-          {/* can adjust svg in background */}
 
           <div className="leftDiv">
             <h4 className="upperHeading">
@@ -395,7 +394,7 @@ function Home() {
         <div className="sectionTwo">
           <div className="testimonial" id="testimonial" ref={myRef}>
             {/* testominals */}
-            <div className="testLeftDiv">
+            <div className="mobileTestimonial">
               <Testimonial />
             </div>
           </div>
