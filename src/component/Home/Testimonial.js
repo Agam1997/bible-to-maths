@@ -55,7 +55,7 @@ function Testimonial() {
               .map((testimonial, ind) => {
                 return (
                   <div key={ind}>
-                    <img src={testimonial.img} />
+                    <img src={testimonial.img} className='testimage'/>
 
                     <div id="myCarousel">
                       <h3 className="testName">{testimonial.name}</h3>

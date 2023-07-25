@@ -195,19 +195,6 @@ function Home() {
             <Testimonial />
           </div>
         </div>
-
-        {/* books sold counter section */}
-
-        {/* <div className="centered" style={{ background: "#D8D3C9" }}>
-        <div>
-          <h2 className="counterHeading">
-            Sales which proves our effectiveness
-          </h2>
-          <CountUp start={0} end={10000} duration={15} className="myCounter" />
-        </div>
-      </div> */}
-
-        {/* About book */}
         <div>
           <div className="bookContainer">
             <div className="bookDesc">
@@ -268,9 +255,6 @@ function Home() {
             <button onClick={routeChange}>Read more about the book</button>
           </div>
         </div>
-
-        {/* about the author */}
-
         <div>
           <div className="author">
             <div className="authorImage">
@@ -297,16 +281,6 @@ function Home() {
                 subject may inspire her to delve deeper into mathematical
                 concepts and apply them to her work in the field of technology.
               </p>
-              {/* <div className="authorNumbers">
-            <div className="authorNumber">
-              <p> 200-300 </p>
-              <p>Students Taught</p>
-            </div>
-            <div className="authorNumber">
-              <p> 180 </p>
-              <p>Student toppers</p>
-            </div>
-          </div> */}
             </div>
           </div>
           <div className="centered">
@@ -315,13 +289,7 @@ function Home() {
             </button>
           </div>
         </div>
-        {/* Amazon reviews */}
         <div className="reviewContainer">
-          {/* <CarouselWrapper items={1} mode="normal">
-          {reviews.map((image, index) => (
-            <img src={image} alt={`pic-${index}`} key={index} />
-          ))}
-        </CarouselWrapper> */}
           <Carousel
             className="reviews"
             showArrows={false}
@@ -347,10 +315,6 @@ function Home() {
       <div className="mobile">
         <div className="sectionOne">
           <div className="rightDiv">
-            {/* <div className="leftSemiCircle"> */}
-            {/* left pink  semi circle*/}
-            {/* <img src="./assets/images/testimage.jpg" alt="" /> */}
-            {/* </div> */}
             <div>
               <img
                 className="mainImage"
@@ -365,10 +329,6 @@ function Home() {
               />
               {/* book image */}
             </div>
-            {/* <div className="rightSemiCircle"> */}
-            {/* <img src="./assets/images/testimage.jpg" alt="" /> */}
-            {/* bottom right semi circle */}
-            {/* </div> */}
           </div>
           <div>
             <h1 className="mainHeading">Bible to basic mathematics</h1>
@@ -376,6 +336,19 @@ function Home() {
             {/* <img src="./assets/images/Rectangle.png" alt="rectangle-2" className="thickLine"/> */}
             <hr className="myLine" />
           </div>
+          <div className="mainPara">
+              <p>
+                <span className="purple">BIBLE TO BASIC MATHEMATICS</span> is a
+                book that can be used to clear the basic maths for school
+                syllabus as well as for competitive exams. It has been an
+                interesting journey to write this book. This book works with a
+                flow starting from the theory of numbers followed by many
+                important concepts. I have made an attempt to put all the
+                important concepts of mathematics together in a single book and
+                in doing so I have tried to make it the best book for basic
+                mathematics.
+              </p>
+            </div>
           <div>
             <button
               className="buyNow"
@@ -500,8 +473,31 @@ function Home() {
             </p>
           </div>
         </div>
+        <div className="reviewContainer">
+          <Carousel
+            className="reviews"
+            showArrows={false}
+            infiniteLoop={true}
+            showThumbs={false}
+            showStatus={false}
+            autoPlay={true}
+            interval={2100}
+          >
+            {reviews.map((image, index) => (
+              <div className="carousel2" key={index}>
+                <img
+                  src={image}
+                  alt={`pic-${index}`}
+                  key={index}
+                  
+                  className="carimg"
+                />
+              </div>
+            ))}
+          </Carousel>
+        </div>
       </div>
-      <div className="centered">
+      <div className="centered" style={{marginTop: "70px"}}>
         <button
           onClick={() =>
             window.open(
