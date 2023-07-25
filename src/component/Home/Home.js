@@ -423,7 +423,7 @@ function Home() {
             {/* <blockquote></blockquote> */}
 
             <div className="bookNumber">
-              <span className="quote"></span>
+              {/* <span className="quote"></span> */}
               <CountUp start={0} end={700} duration={4} className="myCounter" />
               <p>Students Taught</p>
             </div>
@@ -440,7 +440,7 @@ function Home() {
               />
               <p>Books Sold</p>
             </div>
-            <span className="invertedQuote"></span>
+            {/* <span className="invertedQuote"></span> */}
           </div>
           <div className="centered">
             <button onClick={routeChange}>Read more about the book</button>
@@ -497,7 +497,7 @@ function Home() {
           </Carousel>
         </div>
       </div>
-      <div className="centered" style={{marginTop: "70px"}}>
+      <div className="centered" style={{marginTop: "90px"}}>
         <button
           onClick={() =>
             window.open(

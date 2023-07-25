@@ -199,7 +199,7 @@ function AboutBook() {
               src="./assets/images/cpws.jpeg"
               alt="image"
               controls="true"
-              height="400"
+              height="200"
               
             />
             <p style={{textAlign:"center"}}>CPWS, Bilaspur</p>
@@ -209,7 +209,7 @@ function AboutBook() {
               src="./assets/images/great.jpeg"
               alt="image"
               controls="true"
-              height="400"
+              height="200"
               
             />
             <p style={{textAlign:"center"}}>The Great India School (Holy Hearts), Raipur</p>
