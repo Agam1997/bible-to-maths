@@ -114,13 +114,12 @@ function AboutAuthor() {
           <div className="backRowDesc">
             <h3>Why i write the book?</h3>
             <p>
-              As during her teaching career, she noticed that there is some lack
-              of understanding in basic concept of Mathematics. So, in a casual
-              conversation her brother suggested to transform the concept and
-              knowledge into a book. This motivated her to attempt to write this
-              book. She started writing in October-2019 and finished it in
-              November, 2019. She decided to self publish it in the name of her
-              grand-parents.
+            While working as a teacher, she observed that some students
+              struggled with fundamental concepts in Mathematics. In a casual
+              conversation with her brother, he proposed transforming her
+              knowledge into a book, which motivated her to begin writing.
+              Starting in October 2019, she completed the book the following
+              month and decided to self-publish it under her grandparents' name.
             </p>
           </div>
           <div className="backRowBackImage">

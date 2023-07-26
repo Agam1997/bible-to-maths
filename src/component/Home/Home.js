@@ -402,16 +402,17 @@ function Home() {
         <div className="sectionThree">
           <div>
             <p>
-              This book is an attempt to clarify the concepts of mathematics
-              from scratch for readers of all age groups. BIBLE TO BASIC
-              MATHEMATICS provides readers with all the contents required to
-              improve their skills and basics of Mathematics such as theory of
-              numbers, operation on fractions, operation of signs, shifting of
-              terms across the equal to sign, splitting the middle term in
-              quadratic equation, properties and basic theorems of geometry,
-              mensuration, probability and many more. This book is intended for
-              all readers, even for those who have not been in touch with
-              Mathematics from the last many years.
+            This book is an attempt to clarify the concepts of mathematics
+                from scratch for readers, making it a Maths book for all ages.
+                <span className="purple"> BIBLE TO BASIC MATHEMATICS</span>{" "}
+                provides the readers with all the contents required to improve
+                their skills and basics of Mathematics such as theory of
+                numbers, operation on fractions, operation of signs, shifting of
+                terms across the equal to sign, splitting the middle term in
+                quadratic equation, properties and basic theorems of geometry,
+                mensuration, probability and many more. Amalgamation of all
+                these different mathematical branches into one book makes it one
+                of the best maths books for all competitive exams.
             </p>
           </div>
           <div className="bookImage">
