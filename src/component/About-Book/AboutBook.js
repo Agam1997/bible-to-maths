@@ -105,35 +105,6 @@ function AboutBook() {
             />
             <p style={{textAlign:"center"}}>The Great India School (Holy Hearts), Raipur</p>
           </div>
-          {/* <div className="leftDiv">
-            <img
-              src="./assets/images/ack_2.jpeg"
-              alt="image"
-              controls="true"
-              height="600"
-              width="600"
-              style={{paddingTop: "70px !important"}}
-            />
-            <p style={{textAlign:"center"}}>Honored at NPTEL of being a course topper!! <a href="https://www.imprzd.com/bi/NPTEL37645.html">Find out more here</a></p>
-            
-          </div> */}
-          {/* <div className="rightDiv">
-            <ol>
-              <li>
-                Sainik School, Imphal gave assignment to their students to write
-                about this book.{" "}
-                <a
-                  href="https://ssimphal.nic.in/pdf/Class%207%20sv.pdf"
-                  target="_blank"
-                >
-                  https://ssimphal.nic.in/pdf/Class%207%20sv.pdf
-                </a>
-              </li>
-              <li>Humans of Chhattisgarh</li>
-              <li>CPWS</li>
-              <li>Raipur Great India School (Holy Heart)</li>
-            </ol>
-          </div> */}
         </div>
       </div>
       <div className="mobile">
@@ -174,8 +145,11 @@ function AboutBook() {
             </p>
             <h4>Second Edition</h4>
             <p>
-              In the Second Edition, index has also been included at the end in
-              order to access the contents in a precise manner.
+            The Second Edition now includes an index at the end of the book,
+              providing readers with a convenient and efficient way to locate
+              specific topics and concepts. By including an index, readers can
+              easily navigate through the book and quickly access the
+              information they need.
             </p>
           </div>
           <div className="backRowBackImage">
