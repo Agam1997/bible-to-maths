@@ -112,7 +112,7 @@ function AboutAuthor() {
         </div>
         <div className="backRow">
           <div className="backRowDesc">
-            <h3>Why i write the book?</h3>
+            <h3>What inspired her to write the book?</h3>
             <p>
             While working as a teacher, she observed that some students
               struggled with fundamental concepts in Mathematics. In a casual

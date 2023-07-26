@@ -441,10 +441,10 @@ img {
   height: 1000px;
 }
 
-.carousel .control-dots {
+.leftTestDiv .carousel .control-dots {
   padding-left: 5px !important;
   outline: 0;
-  bottom: 10%;
+  bottom: 20% !important;
 }
 
 .carousel2 h3 {
@@ -611,10 +611,6 @@ img {
   font-family: Georgia, serif;
   font-size: 18px;
   font-style: italic;
-  /* width: 500px; */
-  /* margin: 0.25em 0; */
-  /* padding: 0.35em 40px; */
-  /* line-height: 1.45; */
   position: relative;
   color: #c281d1;
 }
@@ -634,10 +630,6 @@ img {
   font-family: Georgia, serif;
   font-size: 18px;
   font-style: italic;
-  /* width: 500px; */
-  /* margin: 0.25em 0; */
-  /* padding: 0.35em 40px; */
-  /* line-height: 1.45; */
   position: relative;
   color: #c281d1;
 }
@@ -679,9 +671,12 @@ img {
   .mobileTestimonial {
     width: 100%;
   }
-  .carousel .control-dots {
-    bottom: 10% !important;
+  .reviewContainer .carousel .control-dots {
+    padding-left: 5px !important;
+    outline: 0;
+    bottom: 16% !important;
   }
+
   .sectionTwo {
     display: flex;
     flex-direction: column;
