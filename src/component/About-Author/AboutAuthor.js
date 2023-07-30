@@ -1,7 +1,11 @@
 import React from "react";
 import "./AboutAuthor.css";
+import { useEffect } from "react";
 
 function AboutAuthor() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       {/* <div className="rowContainer"> */}

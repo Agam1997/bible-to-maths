@@ -4,11 +4,14 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import "./Home.css";
 import CountUp from "react-countup";
 import { useNavigate } from "react-router-dom";
-import { CarouselWrapper } from "react-pretty-carousel";
 import Testimonial from "./Testimonial";
+import { useEffect } from 'react';
 
 function Home() {
   let navigate = useNavigate();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const routeChange = () => {
     let path = `/about-book`;
     navigate(path);
@@ -473,6 +476,11 @@ function Home() {
             </p>
           </div>
         </div>
+        <div className="centered">
+            <button onClick={navigateToAuthor}>
+              Read more about the Author
+            </button>
+          </div>
         <div className="reviewContainer">
           <Carousel
             className="reviews"

@@ -1,7 +1,11 @@
 import React from "react";
 import "./AboutBook.css";
+import { useEffect } from "react";
 
 function AboutBook() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
