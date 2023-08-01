@@ -4,6 +4,12 @@ import Home from "../../component/Home/Home";
 function HomePage() {
   return (
     <>
+    <head>
+      <title>सेंट जोसेफ हिंदी मीडियम स्कूल</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Best CG Board Hindi Medium School in Bilaspur, Chhattisgarh. | St. Joseph Convent Hindi Medium School" name="title" />
+    <meta content="St. Joseph Convent School Hindi medium is best for girls in Bilaspur offering high level CG board education with affordable school fees." name="description" />
+      </head>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       <link

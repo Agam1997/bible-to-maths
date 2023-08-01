@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 function AboutAuthor() {
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo(-80, -80);
   }, []);
   return (
     <div>

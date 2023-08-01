@@ -11,6 +11,8 @@ function Home() {
   let navigate = useNavigate();
   useEffect(() => {
     window.scrollTo(0, 0);
+    document.title = "Bible to Basic Mathematics by Pragati Agrawal";
+    document.description = "";
   }, []);
   const routeChange = () => {
     let path = `/about-book`;
