@@ -505,7 +505,7 @@ function Home() {
           </Carousel>
         </div>
       </div>
-      <div className="centered" style={{marginTop: "90px"}}>
+      <div className="centered" style={{marginTop: "40px"}}>
         <button
           onClick={() =>
             window.open(

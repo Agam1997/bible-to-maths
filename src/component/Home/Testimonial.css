@@ -103,10 +103,10 @@
     outline: 0;
     width: 93% !important;
     margin: auto !important;
-    height: 450px;
+    height: 480px;
   }
   .carousel {
-    height: 118vw !important;
+    height: 100% !important;
   }
 
   .carousel.carousel-slider .control-arrow {
@@ -131,6 +131,6 @@
     border-radius: 50%;
   }
    .mobileTestimonial .carousel-root .carousel .control-dots {
-    top: 380px !important;
+    top: 88% !important;
 }
 }

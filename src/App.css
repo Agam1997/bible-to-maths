@@ -1,8 +1,6 @@
 .app {
   text-align: center;
   background-color: #d8d3c9;
-  user-select: all !important;
-  
 }
 p {
   font-family: 'Open Sans', sans-serif;

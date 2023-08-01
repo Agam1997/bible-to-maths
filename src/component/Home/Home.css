@@ -533,7 +533,7 @@ img {
     outline: 0;
     width: 93% !important;
     margin: auto !important;
-    height: 65vw !important;
+    height: 85% !important;
   }
 
   .reviews.carousel-slider .control-arrow {
@@ -674,7 +674,6 @@ img {
   .reviewContainer .carousel .control-dots {
     padding-left: 5px !important;
     outline: 0;
-    bottom: 16% !important;
   }
 
   .sectionTwo {
