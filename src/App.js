@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -24,7 +23,6 @@ function App() {
       {/* Rest of your component code */}
     </div>
       <BrowserRouter>
-      
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -34,8 +32,6 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
-      {/* <Home /> */}
-      {/* <Footer /> */}
     </div>
   );
 }

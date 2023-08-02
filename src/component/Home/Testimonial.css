@@ -5,9 +5,7 @@
 }
 
 .carousel .slide {
-  /* background: #d8d3c9; */
   color: black;
-  /* height: 100%; */
 }
 
 .carousel .slide img {
@@ -28,13 +26,6 @@
   border: 1px solid #ddd;
   height: 350px;
 }
-
-/* .carousel .control-dots {
-  padding-left: 5px !important;
-  outline: 0;
-  bottom: 5%;
-} */
-
 #myCarousel h3 {
   color: #222;
   font-weight: 100;

@@ -8,7 +8,6 @@ function AboutAuthor() {
   }, []);
   return (
     <div>
-      {/* <div className="rowContainer"> */}
       <div className="desktop">
         <div className="frontAuthRow">
           <div className="firstAuthRowFrontImage">

@@ -182,16 +182,11 @@ function Home() {
         <div className="testimonial" id="testimonial" ref={myRef}>
           <div className="testRightDiv">
             <div className="leftSemiCircle">
-              {/* left pink  semi circle*/}
-              {/* <img src="./assets/images/testimage.jpg" alt="" /> */}
             </div>
             <div className="book">
               <img src="./assets/images/back.png" alt="" />
-              {/* book image */}
             </div>
             <div className="rightSemiCircle">
-              {/* <img src="./assets/images/testimage.jpg" alt="" /> */}
-              {/* bottom right semi circle */}
             </div>
           </div>
           {/* testominals */}

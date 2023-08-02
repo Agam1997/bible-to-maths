@@ -12,12 +12,6 @@
     background-color: #d8d3c9;
     ;
 }
-/* .footer div:first-child {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 25%; */
-/* } */
 
 .footerMenu {
     display: flex;
@@ -25,7 +19,6 @@
     align-items: center;
     justify-content: space-between;
     flex: 0.3;
-    /* font-family: 'Cinzel Decorative', cursive; */
     font-family: 'Montserrat', sans-serif !important
 }
 
@@ -34,7 +27,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    /* padding: 20%; */
 }
 .footerMobile {
     display: none;
