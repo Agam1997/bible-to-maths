@@ -8,17 +8,23 @@ import Footer from "./component/layout/Footer/Footer";
 import AboutBook from "./component/About-Book/AboutBook";
 import AboutAuthor from "./component/About-Author/AboutAuthor";
 import Contact from "./component/Contact-us/Contact";
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
     <div className="app">
+      <div>
+      <Helmet>
+        <title>Bible to Basic Mathematics by Pragati Agrawal</title>
+        <meta name="title" content="Bible to Basic Mathematics by Pragati Agrawal" />
+        <meta name="description" content="Bible to Basic Mathematics by Pragati Agrawal" />
+        <meta property="og:title" content="Bible to Basic Mathematics by Pragati Agrawal" />
+        <meta property="og:description" content="Bible to Basic Mathematics by Pragati Agrawal" />
+      </Helmet>
+      {/* Rest of your component code */}
+    </div>
       <BrowserRouter>
-      <head>
-      <title>सेंट जोसेफ हिंदी मीडियम स्कूल</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Best CG Board Hindi Medium School in Bilaspur, Chhattisgarh. | St. Joseph Convent Hindi Medium School" name="title" />
-    <meta content="St. Joseph Convent School Hindi medium is best for girls in Bilaspur offering high level CG board education with affordable school fees." name="description" />
-      </head>
+      
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
