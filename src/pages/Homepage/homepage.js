@@ -1,15 +1,17 @@
 import React from "react";
 import Home from "../../component/Home/Home";
+import { Helmet } from 'react-helmet';
 
 function HomePage() {
   return (
     <>
-    <head>
-      <title>सेंट जोसेफ हिंदी मीडियम स्कूल</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Best CG Board Hindi Medium School in Bilaspur, Chhattisgarh. | St. Joseph Convent Hindi Medium School" name="title" />
-    <meta content="St. Joseph Convent School Hindi medium is best for girls in Bilaspur offering high level CG board education with affordable school fees." name="description" />
-      </head>
+    <Helmet>
+        <title>Bible to Basic Mathematics by Pragati Agrawal</title>
+        <meta name="title" content="Bible to Basic Mathematics by Pragati Agrawal" />
+        <meta name="description" content="Bible to Basic Mathematics by Pragati Agrawal" />
+        <meta property="og:title" content="Bible to Basic Mathematics by Pragati Agrawal" />
+        <meta property="og:description" content="Bible to Basic Mathematics by Pragati Agrawal" />
+      </Helmet>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       <link
